@@ -16,12 +16,11 @@ function switchMode(event) {
 toggleSwitch.addEventListener('change', switchMode, false);
 
 const yearOptions = {
-    "CommunicationSkillsI": ["EN2106_2020", "2022", "2023"],
+    "CommunicationSkillsI": ["EN2106_2020", "EN2106_2021", "EN2106_2022"],
     "DatabaseSystems": ["2020", "2021", "2022"],
     "FundamentalsofSoftwareEngineering": ["2019", "2020", "2021", "2022"],
     "MathematicsforComputingI": ["2018", "2019", "2020"],
     "WebApplicationDevelopmentI": ["2017", "2018", "2019", "2020", "2021"]
- 
 };
 
 function populateYearButtons(years, prefix) {
@@ -46,16 +45,15 @@ function populateYearButtons(years, prefix) {
     });
 
     var yearButtons = document.querySelectorAll(".quiz-type");
-var yearType;
+    var yearType;
 
-// Add click event listener to each quiz type button
-for (var i = 0; i < yearButtons.length; i++) {
-    yearButtons[i].addEventListener("click", function () {
-        yearType = this.id; // Get the ID of the clicked button
-        questionScreen(yearType); // Load questions for the selected quiz type
-       
-    });
-}
+    // Add click event listener to each quiz type button
+    for (var i = 0; i < yearButtons.length; i++) {
+        yearButtons[i].addEventListener("click", function () {
+            yearType = this.id; // Get the ID of the clicked button
+            questionScreen(yearType); // Load questions for the selected quiz type
+        });
+    }
 }
 
 // Select all quiz type buttons
@@ -67,28 +65,19 @@ for (var i = 0; i < quizButtons.length; i++) {
     quizButtons[i].addEventListener("click", function () {
         quizType = this.id; // Get the ID of the clicked button
 
-        showSelectYear(quizType) ;
+        showSelectYear(quizType);
     });
 }
 
-
 function showSelectYear(type) {
-    
     document.querySelector(".start-menu").classList.toggle("visible");
-   
     document.querySelector(".select-year").classList.toggle("visible");
 
-          
     const years = yearOptions[type]; // Get the corresponding years
     if (years) {
-        populateYearButtons(years, type.split('_')[0]); // Pass the prefix (e.g., 'Chapter1', 'Fullpaper1')
-        //showSelectYear();
+        populateYearButtons(years, type.split('_')[0]); // Pass the prefix
     }
 }
-
-
-
-
 
 // Function to handle the display of the question screen
 function questionScreen(type) {

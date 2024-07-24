@@ -1,24 +1,685 @@
 {
   "quizzes": [
-      {
-          "title": "EN2106_2020",
-          "questions": [
-              {
-                  "question": "Which of the following are JavaScript frameworks?",
-                  "options": ["React", "Django", "Angular", "Laravel", "kimchi"],
-                  "answer": ["React", "Angular"]
-              },
-              {
-                "question": "Which of the following are JavaScript frameworks?",
-                "options": ["React", "Django", "Angular", "Laravel", "kimchi"],
-                "answer": ["React"]
-            },
-              {
-                "question": "Which of the following are JavaScript frameworks?",
-                "options": ["React", "Django", "Angular", "Laravel", "kimchi"],
-                "answer": ["React", "Angular","Django"]
-            }
+    {
+      "title": "EN2106_2020",
+      "questions": [
+        {
+          "question": "Which of the following statement/s is/are correct regarding typing?",
+          "options": [
+            "30-35 words per minute is a good typing speed.",
+            "You may use the thumb of your left hand to type spaces.",
+            "Typed letters are unique and they provide an indication regarding your personality.",
+            "Typing has cognitive benefits over handwriting.",
+            "We are more likely to remember what we type than what we write."
+          ],
+          "answer": [
+            "30-35 words per minute is a good typing speed.",
+            "You may use the thumb of your left hand to type spaces."
           ]
-      }
+        },
+        {
+          "question": "Select the sentence/s with correct capitalization",
+          "options": [
+            "We visited the ellora caves last year.",
+            "Last year, the president was the chief guest of our school prize giving.",
+            "When the music played, President Rajapakse stood up for the national anthem.",
+            "There were pandas, cheetahs, bengal tigers and a few other new arrivals at the zoo.",
+            "We can have lots of fun with snow during Winter."
+          ],
+          "answer": [
+           "Last year, the president was the chief guest of our school prize giving.",
+            "When the music played, President Rajapakse stood up for the national anthem."
+          ]
+        },
+        {
+          "question": "Select the sentence/s with correct punctuation.",
+          "options": [
+            "Well, I don’t think its possible.",
+            "However Alex did not like his idea.",
+            "He said that “it would be fine!”",
+            "The sign said, ‘Head towards the North’.",
+            "“I hope you will come,” he said."
+          ],
+          "answer": [
+            "“I hope you will come,” he said."
+          ]
+        },
+        {
+          "question": "Which of the following is the most appropriate conjunction that fills the blank in the text given below: Sunil and Saman stopped their argument ___________ their father came home.",
+          "options": [
+            "when",
+            "eventhough",
+            "as well as",
+            "thereby",
+            "eventually"
+          ],
+          "answer": [
+            "when"
+          ]
+        },
+        {
+          "question": "Which of the following is the most appropriate connective that fills the blank in the text given below? Jack is my best friend. __________________, he didn’t favour me at the interview.",
+          "options": [
+            "Meanwhile",
+            "Moreover",
+            "Eventhough",
+            "However",
+            "On the other hand"
+          ],
+          "answer": [
+            "However"
+          ]
+        },
+        {
+          "question": "Which of the following correctly converts the given sentence into passive voice? The dog was chasing the cat.",
+          "options": [
+            "The cat was being chased by the dog.",
+            "The cat was chased by the dog.",
+            "The cat was been chased by the dog.",
+            "The cat has been chasing the dog.",
+            "The cat is being chased by the dog."
+          ],
+          "answer": [
+            "The cat was being chased by the dog."
+          ]
+        },
+        {
+          "question": "Which of the following correctly converts the given sentence into active voice? Was the song sung by Kumari?",
+          "options": [
+            "Was it Kumari who sang the song?",
+            "Kumari sang the song?",
+            "Is the song sung by Kumari?",
+            "Did Kumari sang the song?",
+            "Did Kumari sing the song?"
+          ],
+          "answer": [
+            "Did Kumari sing the song?"
+          ]
+        },
+        {
+          "question": "Which of the following is/are correct regarding the purpose of writing?",
+          "options": [
+            "It is important to understand the audience’s needs once you finish writing.",
+            "The audience will influence the purpose of writing.",
+            "The purpose will influence the audience.",
+            "The purpose of your essay has nothing to do with why you are writing the essay.",
+            "Writers target their purpose as well as their readers."
+          ],
+          "answer": [
+            "The audience will influence the purpose of writing.",
+            "The purpose will influence the audience.",
+             "Writers target their purpose as well as their readers."
+          ]
+        },
+        {
+          "question": "The purpose of writing should not be to…",
+          "options": [
+            "review",
+            "analyze",
+            "inform",
+            "threaten",
+            "instruct"
+          ],
+          "answer": [
+            "threaten"
+          ]
+        },
+        {
+          "question": "A CV will not include…",
+          "options": [
+            "Personal profile",
+            "Recipient’s address",
+            "Contact information of sender/applicant",
+            "Educational qualifications",
+            "Work experience"
+          ],
+          "answer": [
+            "Recipient’s address"
+          ]
+        },
+        {
+          "question": "Which of the following is correct regarding listening?",
+          "options": [
+            "It is different from hearing.",
+            "Listen for words, not concepts/ ideas.",
+            "Show the speaker that you are listening.",
+            "Do not interrupt with counter arguments.",
+            "Ask questions to clarify certain points."
+          ],
+          "answer": [
+            "It is different from hearing.",
+            "Show the speaker that you are listening.",
+            "Do not interrupt with counter arguments.",
+            "Ask questions to clarify certain points."
+          ]
+        },
+        {
+          "question": "Given below is a part of a speech by a speaker who was invited to ABC Company. Who is/are the active listener/s?",
+          "options": [
+            "Navin",
+            "Suraj",
+            "Fatima",
+            "Savithri",
+            "Dave"
+          ],
+          "answer": [
+            "Savithri",
+            "Dave"
+          ]
+        },
+        {
+          "question": "Which of the following statements is/are inappropriate in small talk?",
+          "options": [
+            "Oh, that’s a beautiful saree you’re wearing!",
+            "You said you sat for the BIT Semester I exam, what were your grades?",
+            "Nice to meet someone working at Soft Solutions, how much do they pay you?",
+            "Hi, did you watch the reality show yesterday night?",
+            "You seem to have quite a few gray hairs now, better use a hair dye!"
+          ],
+          "answer": [
+            "You said you sat for the BIT Semester I exam, what were your grades?",
+            "Nice to meet someone working at Soft Solutions, how much do they pay you?",
+            "You seem to have quite a few gray hairs now, better use a hair dye!"
+          ]
+        },
+        {
+          "question": "Which of the following is/are correct regarding telecommunication skills?",
+          "options": [
+            "The receptionist is the ‘face’ or rather the ‘voice’ of the company.",
+            "Effective telecommunication does not increase customer service.",
+            "If you need time to answer the call, briskly put the customer on hold.",
+            "If the customer has called the wrong department, immediately ask him to call the correct department as you cannot be wasting your time.",
+            "The receptionist should be capable of controlling conversations smoothly."
+          ],
+          "answer": [
+            "The receptionist is the ‘face’ or rather the ‘voice’ of the company.",
+            "The receptionist should be capable of controlling conversations smoothly."
+          ]
+        },
+        {
+          "question": "Which of the following is/are not (an) interview type/s?",
+          "options": [
+            "Case interview",
+            "Behaviour based interview",
+            "Telephone interview",
+            "Quick interview",
+            "Video conference interview"
+          ],
+          "answer": [
+            "Quick interview"
+          ]
+        },
+        {
+          "question": "Which of the following is the most attention-grabbing opening for a speech on “Caring for animals”?",
+          "options": [
+            "Dear ladies and gentlemen, let us be kind to all living beings on earth!",
+            "Caring for innocent animals is a good practice.",
+            "Good morning, my topic for the day is, “Caring for animals”.",
+            "The kindness one shows an animal may not change the world, but it will change the world for that one animal!",
+            "There are lots of animals in this world. They are of various types and colour. All of them need to be treated well!"
+          ],
+          "answer": [
+            "The kindness one shows an animal may not change the world, but it will change the world for that one animal!"
+          ]
+        },
+        {
+          "question": "Which of the following is/are essential in making an effective presentation?",
+          "options": [
+            "props",
+            "facial expressions",
+            "well built figure",
+            "short pause after a main point",
+            "a one minute pause after each sentence"
+          ],
+          "answer": [
+            "props",
+            "facial expressions",
+            "short pause after a main point"
+          ]
+        },
+        {
+          "question": "Which of the following is/are incorrect regarding summarizing and paraphrasing?",
+          "options": [
+            "Plagiarism is not allowed.",
+            "Use synonyms only in paraphrasing.",
+            "Proper referencing to the source material should be made.",
+            "A paraphrase is shorter than its summarized version.",
+            "We use paraphrasing if our readers need to know only the overall picture of the description in the text."
+          ],
+          "answer": [
+            "Use synonyms only in paraphrasing.",
+            "A paraphrase is shorter than its summarized version.",
+            "We use paraphrasing if our readers need to know only the overall picture of the description in the text."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "EN2106_2021",
+      "questions": [
+        {
+          "question": "Which of the following statement is/are correct regarding handwriting/typing?",
+          "options": [
+            "Touch typing helps you to type fast.",
+            "Handwriting is not important in the age of computers.",
+            "Writing with pen and paper helps you to get rid of the distractions of the digital world and lets your ideas flow.",
+            "Handwritten notes are legible than typed ones.",
+            "There is a high risk of typos in handwritten notes."
+          ],
+          "answer": [
+            "Touch typing helps you to type fast.",
+            "Writing with pen and paper helps you to get rid of the distractions of the digital world and lets your ideas flow.",
+            "There is a high risk of typos in handwritten notes."
+          ]
+        },
+        {
+          "question": "Select the sentence/s with correct capitalization.",
+          "options": [
+            "The prime minister will address the parliament.",
+            "The teacher asked us to bring the following: A pencil, A ruler, Some rough papers.",
+            "My friend Nima lives South from the school.",
+            "My birthday falls on friday this year.",
+            "The summit will be presided by President Rajapaksha."
+          ],
+          "answer": [
+            "The prime minister will address the parliament.",
+            "The summit will be presided by President Rajapaksha."
+          ]
+        },
+        {
+          "question": "Select the sentence/s with correct punctuation.",
+          "options": [
+            "They were in trouble. However they did not panic. Therefore they managed to successfully get to safety.",
+            "I was born on Sunday May 11, 1995.",
+            "“I saw him running away,” Fanny reported.",
+            "“I’m truly shocked by your behavior!,” I told her.",
+            "In archaeology, shaping a piece of stone by striking it is known as “knapping”."
+          ],
+          "answer": [
+            "“I saw him running away,” Fanny reported.",
+            "In archaeology, shaping a piece of stone by striking it is known as “knapping”."
+          ]
+        },
+        {
+          "question": "Which of the following is the most appropriate connective that fills the blank in the text given below? ……………………… you have apologized, we will not take any further actions against you.",
+          "options": [
+            "When",
+            "Since",
+            "But",
+            "Even though",
+            "However"
+          ],
+          "answer": [
+            "Since"
+          ]
+        },
+        {
+          "question": "Which of the following is the most appropriate conjunction that fills the blank in the text given below? My father and mother went out. ……………………., Linda took the car and drove to the party.",
+          "options": [
+            "On the other hand",
+            "Moreover",
+            "But",
+            "Meanwhile",
+            "However"
+          ],
+          "answer": [
+            "Meanwhile"
+          ]
+        },
+        {
+          "question": "Which of the following correctly converts the given sentence into passive voice? The kangaroo carried her baby in her pouch.",
+          "options": [
+            "The baby was been carried by the kangaroo in her pouch.",
+            "The baby had been carried by the kangaroo in her pouch.",
+            "The baby was carried by the kangaroo in her pouch.",
+            "The baby was being carried by the kangaroo in her pouch.",
+            "The baby has been carried by the kangaroo in her pouch."
+          ],
+          "answer": [
+            "The baby was carried by the kangaroo in her pouch."
+          ]
+        },
+        {
+          "question": "Which of the following correctly converts the given sentence into active voice? Were you recognized by her?",
+          "options": [
+            "Were she able to recognize you?",
+            "Did she recognized you?",
+            "Was she recognized by you?",
+            "She recognized you?",
+            "Did she recognize you?"
+          ],
+          "answer": [
+            "Did she recognize you?"
+          ]
+        },
+        {
+          "question": "Which of the following is/are correct regarding writing?",
+          "options": [
+            "The beginning and the conclusion of your writing should relate to the same goal.",
+            "The language and style of your work should cater to the expectations of the audience.",
+            "It is not important to understand the audience’s needs before you start writing.",
+            "Before you start writing, you need to identify the purpose.",
+            "The purpose of your writing is not important."
+          ],
+          "answer": [
+            "The beginning and the conclusion of your writing should relate to the same goal.",
+            "The language and style of your work should cater to the expectations of the audience.",
+            "Before you start writing, you need to identify the purpose."
+          ]
+        },
+        {
+          "question": "Which of the following should NOT be a part of a CV?",
+          "options": [
+            "Employment history",
+            "Religious affiliation",
+            "Contact information",
+            "Education",
+            "Professional qualifications"
+          ],
+          "answer": [
+            "Religious affiliation"
+          ]
+        },
+        {
+          "question": "When should you send a cover letter?",
+          "options": [
+            "Only when an advertisement specifically requests it.",
+            "Every time you send out your CV.",
+            "When you need to list your salary requirement.",
+            "When you need to list references.",
+            "When you want to thank the employer for selecting you for the job."
+          ],
+          "answer": [
+            "Every time you send out your CV."
+          ]
+        },
+        {
+          "question": "Which of the following statement/s is/are correct regarding an active listener?",
+          "options": [
+            "Ask questions to clarify certain points",
+            "Voice the opinions respectfully.",
+            "Interrupt with counter arguments.",
+            "Simply takes in the words and offers no sign of hearing or understanding",
+            "Always be judgmental."
+          ],
+          "answer": [
+            "Ask questions to clarify certain points",
+            "Voice the opinions respectfully."
+          ]
+        },
+        {
+          "question": "Which of the following is/are appropriate in small talk?",
+          "options": [
+            "Good morning and welcome to the local news. Let’s now have a look at the news headlines.",
+            "It looks like we are going to be here for a while, huh?",
+            "Did you hear about the hurricane at Trincomalee?",
+            "Looking forward to the weekend?",
+            "Oh! You look so fed up. Are you struggling with some problems at home?"
+          ],
+          "answer": [
+            "It looks like we are going to be here for a while, huh?",
+            "Did you hear about the hurricane at Trincomalee?",
+            "Looking forward to the weekend?"
+          ]
+        },
+        {
+          "question": "Which of the following statement/s is/are correct regarding initiating an official phone call?",
+          "options": [
+            "Know what you want out of the call.",
+            "Research who you will be speaking to.",
+            "Get to the point directly without introducing who you are.",
+            "Jot down a few talking points.",
+            "Ask if it’s a good time to talk."
+          ],
+          "answer": [
+            "Know what you want out of the call.",
+            "Research who you will be speaking to.",
+            "Jot down a few talking points.",
+            "Ask if it’s a good time to talk."
+          ]
+        },
+        {
+          "question": "Which of the following you should NOT do in a job interview?",
+          "options": [
+            "Give your opinion about the things that you would prefer to change in the company.",
+            "Smile, be natural and speak with confidence.",
+            "Be open and honest.",
+            "Try not to get into salary details early unless you are pressed.",
+            "Do not underestimate or overestimate yourself."
+          ],
+          "answer": [
+            "Give your opinion about the things that you would prefer to change in the company."
+          ]
+        },
+        {
+          "question": "Which of the following statement/s should you consider before you prepare yourself to deliver a speech?",
+          "options": [
+            "Make sure the speech is too long so that the audience will not get bored.",
+            "Know the audience in advance.",
+            "Research the topic well and write down the speech points/ facts on a piece of paper.",
+            "Try rehearsing in front of a small audience (e.g. two or three friends).",
+            "Make sure the opening of the speech is attention-grabbing."
+          ],
+          "answer": [
+            "Know the audience in advance.",
+            "Research the topic well and write down the speech points/ facts on a piece of paper.",
+            "Try rehearsing in front of a small audience (e.g. two or three friends).",
+            "Make sure the opening of the speech is attention-grabbing."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "EN2106_2022",
+      "questions": [
+        {
+          "question": "Which of the following is/are (an) advantage(s) of typing compared to handwriting?",
+          "options": [
+            "Typing is better for work that requires formatting.",
+            "Typing enables you to easily back up your work.",
+            "Typing is good for research and multi-tasking.",
+            "Typing increases hand cramps more than handwriting.",
+            "When compared with handwriting, typing makes you a creative person."
+          ],
+          "answer": [
+            "Typing is good for research and multi-tasking.",
+            "Typing enables you to easily back up your work.",
+            "Typing is better for work that requires formatting."
+          ]
+        },
+        {
+          "question": "Which of the following sentences contain(s) correct capitalization?",
+          "options": [
+            "In Uruguay, the summer begins in December.",
+            "The president of Croatia works in zagreb.",
+            "Are you going to be with your family for holi?",
+            "Here comes Professor Ames from Australia.",
+            "Will you take my temperature, doctor?"
+          ],
+          "answer": [
+            "In Uruguay, the summer begins in December.",
+            "Here comes Professor Ames from Australia."
+          ]
+        },
+        {
+          "question": "Select the sentence(s) with correct punctuation.",
+          "options": [
+            "Miami Beach, Disney World, and Universal Studio, make a wonderful place to visit.",
+            "Some people like to get up early in the morning; others would not like to do so.",
+            "I can’t see Henry’s bike: it must be in the garage.",
+            "Will your brother drive us to the mall or shall we take a cab?",
+            "What, You still haven’t submitted your assignment?"
+          ],
+          "answer": [
+            "Some people like to get up early in the morning; others would not like to do so.",
+            "Will your brother drive us to the mall or shall we take a cab?"
+          ]
+        },
+        {
+          "question": "Which of the following is/are the most appropriate connective(s) that fill(s) the blank in the text given below? ……………………… having a sprained ankle, he still refereed the football match.",
+          "options": [
+            "Therefore",
+            "Meanwhile",
+            "But",
+            "Despite",
+            "However"
+          ],
+          "answer": [
+            "Despite"
+          ]
+        },
+        {
+          "question": "Which of the following is/are the most appropriate conjunction(s) that fill(s) the blank in the text given below? The teacher had to choose. ……………………., she’d assign the student detention or just give her a warning.",
+          "options": [
+            "because",
+            "until",
+            "whether",
+            "moreover",
+            "but"
+          ],
+          "answer": [
+            "whether"
+          ]
+        },
+        {
+          "question": "Which of the following correctly convert(s) the given sentence into passive voice? Nitesh will not have changed the table cover.",
+          "options": [
+            "The table cover would not have been changed by Nitesh.",
+            "The table cover will not have be changed by Nitesh.",
+            "The table cover will not have been changed by Nitesh.",
+            "The table cover will not has been changed by Nitesh.",
+            "The table cover will have not been changed by Nitesh."
+          ],
+          "answer": [
+            "The table cover will not have been changed by Nitesh."
+          ]
+        },
+        {
+          "question": "Select the incorrect pair(s) of active voice and passive voice.",
+          "options": [
+            "She signs beautifully – Beautiful songs are sign by her.",
+            "They built a new house – A new house was built by them.",
+            "The chef is preparing a delicious meal – A delicious meal is being prepared by the chef.",
+            "He will write a letter – A letter will be written by him.",
+            "A traffic policeman fined Taru for jumping the red light – Taru was fine by a traffic policeman for jumping the red light."
+          ],
+          "answer": [
+            "She signs beautifully – Beautiful songs are sign by her.",
+            "A traffic policeman fined Taru for jumping the red light – Taru was fine by a traffic policeman for jumping the red light."
+          ]
+        },
+        {
+          "question": "Which of the following is/are incorrect regarding writing?",
+          "options": [
+            "The purpose of the introduction is to give your reader a clear idea of what your writing will cover.",
+            "The supporting ideas are usually stated in the introduction.",
+            "The conclusion will summarize or connect everything that is been said and give a final chance to lay out the main ideas before the reader.",
+            "It is not important to revise, edit, and proofread your writing before presenting it to the reader.",
+            "With a proper outline, you will know how many paragraphs you want to present, what order you want to present them, and what you want to say in them."
+          ],
+          "answer": [
+            "The supporting ideas are usually stated in the introduction.",
+            "It is not important to revise, edit, and proofread your writing before presenting it to the reader."
+          ]
+        },
+        {
+          "question": "Which of the following is/are correct regarding CV writing?",
+          "options": [
+            "Make sure the applicant’s email address sounds professional.",
+            "Include a salutation at the top of the CV.",
+            "Mention a few words about the company that the CV is sent to.",
+            "Include no work experience.",
+            "Include the names of the applicant’s relations as referees."
+          ],
+          "answer": [
+            "Make sure the applicant’s email address sounds professional."
+          ]
+        },
+        {
+          "question": "Which of the following should you include when writing a cover letter?",
+          "options": [
+            "Religious affiliation",
+            "Applicant’s interest in the job",
+            "Family background",
+            "Photograph of the applicant",
+            "Salutation"
+          ],
+          "answer": [
+            "Applicant’s interest in the job",
+            "Salutation"
+          ]
+        },
+        {
+          "question": "What is/are the characteristic(s) of an active listener?",
+          "options": [
+            "Assert the opinions respectfully.",
+            "Involve in side conversations when listening in a group setting.",
+            "Encourage the speaker to continue with small verbal comments like “Yes” and “Aha”.",
+            "Ask questions to clarify certain points.",
+            "Interrupt the speaker with counter arguments."
+          ],
+          "answer": [
+            "Assert the opinions respectfully.",
+            "Encourage the speaker to continue with small verbal comments like “Yes” and “Aha”.",
+            "Ask questions to clarify certain points."
+          ]
+        },
+        {
+          "question": "Which of the following is/are (an) example(s) of small talk?",
+          "options": [
+            "Discussing the latest scientific discoveries.",
+            "Asking about someone's weekend plans.",
+            "Debating political ideologies.",
+            "Sharing personal secrets and deep emotions.",
+            "Asking about someone's favorite hobbies or interests."
+          ],
+          "answer": [
+            "Asking about someone's weekend plans.",
+            "Asking about someone's favorite hobbies or interests."
+          ]
+        },
+        {
+          "question": "When engaging in a professional phone call, which of the following is/are (an) essential aspect(s) of effective communication?",
+          "options": [
+            "Utilizing active listening skills",
+            "Interrupting the speaker to express opinions",
+            "Using technical jargon extensively",
+            "Keeping the conversation brief and concise",
+            "Focusing on personal anecdotes to build rapport"
+          ],
+          "answer": [
+            "Utilizing active listening skills",
+            "Keeping the conversation brief and concise"
+          ]
+        },
+        {
+          "question": "During a job interview, which of the following is/are considered appropriate behavior and preparation?",
+          "options": [
+            "Arriving late and providing excuses",
+            "Wearing casual attire to showcase a personal style",
+            "Researching the company and position beforehand",
+            "Avoiding eye contact to reduce nervousness",
+            "Speaking negatively about previous employers"
+          ],
+          "answer": [
+            "Researching the company and position beforehand"
+          ]
+        },
+        {
+          "question": "When preparing for a public speaking engagement, which of the following is/are recommended practice(s) for effective delivery?",
+          "options": [
+            "Reading the entire speech word-for-word from a script",
+            "Speaking with a lively and expressive voice to keep the audience engaged",
+            "Maintaining a strong and confident posture on stage",
+            "Avoiding any visual aids or supporting materials",
+            "Rushing through the speech to save time"
+          ],
+          "answer": [
+            "Speaking with a lively and expressive voice to keep the audience engaged",
+            "Maintaining a strong and confident posture on stage"
+          ]
+        }
+      ]
+    }
   ]
 }
