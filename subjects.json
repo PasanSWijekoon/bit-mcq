@@ -1,0 +1,25 @@
+{
+    "quizzes": [
+        {
+            "title": "EN2106_2020",
+            "questions": [
+                {
+                    "question": "Which of the following are JavaScript frameworks?",
+                    "options": ["React", "Django", "Angular", "Laravel", "kimchi"],
+                    "answer": ["React", "Angular"]
+                },
+                {
+                  "question": "Which of the following are JavaScript frameworks?",
+                  "options": ["React", "Django", "Angular", "Laravel", "kimchi"],
+                  "answer": ["React"]
+              },
+                {
+                  "question": "Which of the following are JavaScript frameworks?",
+                  "options": ["React", "Django", "Angular", "Laravel", "kimchi"],
+                  "answer": ["React", "Angular","Django"]
+              }
+            ]
+        }
+    ]
+  }
+  

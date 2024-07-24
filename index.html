@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Character encoding for the document -->
+  <meta charset="UTF-8">
+  <!-- Viewport settings for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon for the site -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <!-- Link to the main stylesheet -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Preconnect to Google Fonts for faster loading -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Link to Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+  <!-- Google Analytics tag for tracking -->
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCP_Oy6PAsMMRc-5T4t8mq1OvZlPznkr6E",
+      authDomain: "bit-quiz-app.firebaseapp.com",
+      databaseURL: "https://bit-quiz-app-default-rtdb.firebaseio.com",
+      projectId: "bit-quiz-app",
+      storageBucket: "bit-quiz-app.appspot.com",
+      messagingSenderId: "416978097533",
+      appId: "1:416978097533:web:0495e1ed0763b55ec66814",
+      measurementId: "G-Q8SFS1DGB9"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+
+  <!-- Title of the webpage -->
+  <title>Bit MCQ Semester II</title>
+</head>
+
+<body>
+  <main>
+    <!-- Top row with current subject and light/dark mode toggle -->
+    <article class="row-top">
+      <div class="curr-subject">
+        <!-- Container for subject icon -->
+        <div class="button-icon-container">
+          <img class="subject-img" src="./assets/images/icon-css.svg" alt="subject icon">
+        </div>
+        <!-- Placeholder for chosen subject name -->
+        <h2 class="subject-chosen">some Subject</h2>
+      </div>
+      <div class="light-dark-toggle">
+        <!-- Container for sun icon -->
+        <div class="sun-container">
+          <img src="" alt="picture of sun">
+        </div>
+        <!-- Toggle switch for light/dark mode -->
+        <label class="light-dark-switch" for="checkbox">
+          <input type="checkbox" id="checkbox" />
+          <div class="slider round"></div>
+        </label>
+        <!-- Container for moon icon -->
+        <div class="moon-container">
+          <img src="" alt="picture of moon">
+        </div>
+      </div>
+    </article>
+
+    <!-- Quiz menu with options -->
+    <article class="start-menu">
+      <div class="left-content">
+        <h1>Welcome to the <span class="bolded">Bit Semester II </span>Quiz!</h1>
+        <p>Pick a Subject to get started.</p>
+      </div>
+
+      <div class="choices">
+        <!-- Buttons for different quiz chapters and full papers -->
+        <button id="CommunicationSkillsI" class="semester-type">
+          <div class="button-icon-container">
+            <img src="./assets/images/icon-accessibility.svg" alt="Accessibility icon">
+          </div>
+          Communication Skills I
+        </button>
+
+        <button id="DatabaseSystems" class="semester-type">
+          <div class="button-icon-container">
+            <img src="./assets/images/icon-accessibility.svg" alt="Accessibility icon">
+          </div>
+          Database Systems
+        </button>
+
+        <button id="FundamentalsofSoftwareEngineering" class="semester-type">
+          <div class="button-icon-container">
+            <img src="./assets/images/icon-accessibility.svg" alt="Accessibility icon">
+          </div>
+          Fundamentals of Software Engineering
+        </button>
+        <button id="MathematicsforComputingI" class="semester-type">
+          <div class="button-icon-container">
+            <img src="./assets/images/icon-accessibility.svg" alt="Accessibility icon">
+          </div>
+          Mathematics for Computing I
+        </button>
+        <button id="WebApplicationDevelopmentI" class="semester-type">
+          <div class="button-icon-container">
+            <img src="./assets/images/icon-accessibility.svg" alt="Accessibility icon">
+          </div>
+          Web Application Development I
+        </button>
+      </div>
+    </article>
+
+
+
+    <!-- Quiz menu with year -->
+    <article class="select-year" id="select-year">
+      <div class="left-content">
+        <p>Pick a Year to get started.</p>
+      </div>
+
+      <div class="choices" id="year-choices">
+        <!-- Buttons for different quiz chapters and full papers -->
+
+      </div>
+    </article>
+
+
+
+
+
+    <!-- Quiz question display -->
+    <article class="question-screen">
+      <div class="left-content">
+        <div class="question-wrapper">
+          <!-- Display current question count and total number of questions -->
+          <p class="question-count">Question <span class="question-number"><!-- number --></span> of <span
+              class="question-total"><!-- total --></span></p>
+          <!-- Display the current question -->
+          <h2 class="question">Placeholder</h2>
+        </div>
+        <!-- Progress bar showing completion percentage -->
+        <div class="progress-bar whole">
+          <div class="progress-bar done">
+          </div>
+        </div>
+      </div>
+      <div class="choices options">
+        <!-- Option buttons for multiple choice answers -->
+        <button id="A" class="option">
+          <div class="option-box">A</div>
+        </button>
+        <button id="B" class="option">
+          <div class="option-box">B</div>
+        </button>
+        <button id="C" class="option">
+          <div class="option-box">C</div>
+        </button>
+        <button id="D" class="option">
+          <div class="option-box">D</div>
+        </button>
+
+        <!-- Submit button for the selected answer -->
+        <button class="submit-answer">Submit answer</button>
+        <!-- Prompt displayed if no answer is selected -->
+        <div class="select-prompt">
+          <img src="./assets/images/icon-error.svg" alt="error icon">
+          <p class="select-prompt-text">Please select an answer</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- Quiz completion screen -->
+    <article class="quiz-complete">
+      <div class="complete-left">
+        <!-- Message showing quiz completion and score -->
+        <h1>Quiz completed
+          <span class="scored">You scored...</span>
+        </h1>
+      </div>
+
+      <div class="complete-right">
+        <div class="score-container">
+          <!-- Display final score and total questions -->
+          <div class="final curr-subject">
+            <div class="button-icon-container">
+              <img class="subject-img" src="./assets/images/icon-css.svg" alt="subject icon">
+            </div>
+            <!-- Placeholder for chosen subject name -->
+            <h2 class="subject-chosen">some Subject</h2>
+          </div>
+          <h1 class="final-score"><!-- score --></h1>
+          <p class="score-out-of">out of <span class="complete-question-total">totalQ</span></p>
+        </div>
+        <!-- Button to restart the quiz -->
+        <button class="restart">Play Again</button>
+      </div>
+    </article>
+
+  </main>
+  <!-- Link to the main JavaScript file -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
