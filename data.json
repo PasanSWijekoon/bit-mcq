@@ -680,6 +680,2236 @@
           ]
         }
       ]
+    },
+    {
+      "title": "IT2306_2020",
+      "questions": [
+        {
+          "question": "Which of the following statements is/are correct about Data Redundancy?",
+          "options": [
+            "It is a problem with traditional file systems.",
+            "It is reduced by normalization.",
+            "It has no effect on the cost and maintenance of a system.",
+            "It can lead to inconsistency of data.",
+            "It has no effect on data integrity."
+          ],
+          "answer": [
+            "It is a problem with traditional file systems.",
+            "It is reduced by normalization.",
+            "It can lead to inconsistency of data."
+          ]
+        },
+        {
+          "question": "Which of the following statements is/are correct in relation to the ANSI/SPARC architecture?",
+          "options": [
+            "Any given database has exactly one conceptual schema, but it may have several physical and external schemas.",
+            "The logical view is a single description of the data elements and their relationships.",
+            "A data definition language is used to define the internal schema.",
+            "Does not allow hiding confidential data from users.",
+            "The physical design is the responsibility of the Database Administrator."
+          ],
+          "answer": [
+            "Any given database has exactly one conceptual schema, but it may have several physical and external schemas.",
+            "The logical view is a single description of the data elements and their relationships.",
+            "A data definition language is used to define the internal schema.",
+            "The physical design is the responsibility of the Database Administrator."
+          ]
+        },
+        {
+          "question": "Which of the following statements is/are true regarding actors on the database systems?",
+          "options": [
+            "The person who has the central responsibility of the data in an organization is called a Database Administrator.",
+            "Authorizing access to the database is performed by a Database Designer.",
+            "Naive users require knowledge only on few facilities that they may use repeatedly.",
+            "Defining the data policy of the organization is a responsibility of Database Administrator.",
+            "Communicating with end-users and understanding their needs is a responsibility of Database Designer."
+          ],
+          "answer": [
+            "The person who has the central responsibility of the data in an organization is called a Database Administrator.",
+            "Naive users require knowledge only on few facilities that they may use repeatedly.",
+            "Defining the data policy of the organization is a responsibility of Database Administrator.",
+            "Communicating with end-users and understanding their needs is a responsibility of Database Designer."
+          ]
+        },
+        {
+          "question": "Given below are four steps in the database design process. I. Selecting a suitable Database Management System (DBMS). II. Identifying and document the data requirements of the system. III. Specifying internal storage structures, file organizations, indexes. IV. Identifying the entity types, relationships, and constraints. Which of the following gives the correct order of operations in database design?",
+          "options": [
+            "I, II, III, IV",
+            "I, II, IV, III",
+            "II, IV, I, III",
+            "II, IV, III, I",
+            "II, I, IV, III"
+          ],
+          "answer": [
+            "II, IV, I, III"
+          ]
+        },
+        {
+          "question": "Which of the following statements is/are correct with respect to the relational data model?",
+          "options": [
+            "Values in a tuple of the relation are atomic.",
+            "The range of values of an attribute is defined by the degree.",
+            "Tuples in a relation represent distinct attributes of the entity.",
+            "Columns in a table reflect the distinct instances of the corresponding entity.",
+            "The cardinality of a domain refers to the total number of values in the domain."
+          ],
+          "answer": [
+            "Values in a tuple of the relation are atomic.",
+            "The cardinality of a domain refers to the total number of values in the domain."
+          ]
+        },
+        {
+          "question": "Which of the following statements is/are correct with respect to concept of keys in the relational data model?",
+          "options": [
+            "A super key is the minimal key.",
+            "A key may have more than one attribute.",
+            "Any super key can be selected as the primary key of the relation.",
+            "A key with only one attribute can be selected as the primary key",
+            "Both a super key and a key specifies a uniqueness constraint on tuples."
+          ],
+          "answer": [
+            "A key may have more than one attribute.",
+            "A key with only one attribute can be selected as the primary key",
+            "Both a super key and a key specifies a uniqueness constraint on tuples."
+          ]
+        },
+        {
+          "question": "Consider statements I – III about a ‘Student’ relation from a University relational schema. I. Every student should be given a unique student id which cannot be NULL. II. Email address of every member should be unique. III. Every member must be of 18 years of age or older. Which of the following options correctly identifies the type of relational constraints corresponding to statements I-III?",
+          "options": [
+            "I – key constraint, II – domain constraint, III – entity integrity constraint.",
+            "I – referential integrity constraint, II - key constraint, III – entity integrity constraint.",
+            "I – entity integrity constraint, II – key constraint, III – domain constraint.",
+            "I – entity integrity constraint, II – key constraint, III – none of the relational model constraints.",
+            "I – key constraint, II – entity integrity constraint, III – none of the relational model constraints."
+          ],
+          "answer": [
+            "I – entity integrity constraint, II – key constraint, III – domain constraint."
+          ]
+        },
+        {
+          "question": "If the attribute A1 in relation R1 has a foreign key that references a relation R2 which of the following statements is/are true?",
+          "options": [
+            "R1 is the referenced relation.",
+            "For any tuple in R1 Value of A1 cannot be NULL.",
+            "Domain of A1 must match the domain of the primary key field of R2",
+            "Primary key field of R1 should be named as ‘A1’.",
+            "For any tuple in R1, value of A1 occurs as a value of the primary key field in some tuple in R2."
+          ],
+          "answer": [
+            "Domain of A1 must match the domain of the primary key field of R2",
+            "For any tuple in R1, value of A1 occurs as a value of the primary key field in some tuple in R2."
+          ]
+        },
+        {
+          "question": "Which of the following statements is/are correct regarding the above ER diagram?",
+          "options": [
+            "Student can be associated with many departments, and a department should have at least one student.",
+            "Department may exist without any students.",
+            "Every student should belong to a department.",
+            "Department is an identifying entity.",
+            "Relationship between Department and Student is binary, Many to One relationship."
+          ],
+          "answer": [
+            "Department may exist without any students.",
+            "Every student should belong to a department.",
+            "Relationship between Department and Student is binary, Many to One relationship."
+          ]
+        },
+        {
+          "question": "Which of the following relations is possible if the above ERD is mapped into a relational model?",
+          "options": [
+            "Department (Dept_ID, Stu_ID, Dept_Name, Location)",
+            "Student (Stu_ID, Stu_Name, F_Name, L_Name, Address, DoB, Dept_ID)",
+            "Student (Stu_ID, F_Name, L_Name, Address, DoB)",
+            "Student (Stu_ID, F_Name, L_Name, Address, DoB, Dept_ID)",
+            "Has (Stu_ID, Dept_ID)"
+          ],
+          "answer": [
+            "Student (Stu_ID, Stu_Name, F_Name, L_Name, Address, DoB, Dept_ID)"
+          ]
+        },
+        {
+          "question": "Consider the following ER diagram (ERD) fragment. Which of the following statements is/are correct?",
+          "options": [
+            "“Student” is a strong entity.",
+            "“Degree” and “Number” are key attributes.",
+            "“Age” is a weak attribute.",
+            "“Skills” is a composite attribute.",
+            "“Name” is a multi-valued attribute."
+          ],
+          "answer": [
+            "“Student” is a strong entity.",
+            "“Degree” and “Number” are key attributes.",
+            "“Skills” is a composite attribute.",
+            "“Name” is a multi-valued attribute."
+          ]
+        },
+        {
+          "question": "Consider a scenario where a course may require learning many other courses as prerequisites, and each course may be taught as a prerequisite to many other courses. Given below are four (4) ER diagrams drawn by students to depict the above scenario. Which of the above diagrams is/are correctly drawn to produce the given scenario?",
+          "options": [
+            "I only",
+            "I and II only",
+            "I and III only",
+            "III and IV only",
+            "II, III and IV only"
+          ],
+          "answer": [
+            "II, III and IV only"
+          ]
+        },
+        {
+          "question": "Consider the following ER Diagram (ERD). Which of the following relations is/are possible if the above ERD is mapped into a relational model?",
+          "options": [
+            "Branch (Branch_Name, Branch_City, Assets)",
+            "Employee (Employee_ID, Employee_Name)",
+            "Project (Title, Client)",
+            "Project (Title, Employee_ID, Branch_Name, Grade)",
+            "Works_On (Employee_ID, Branch_Name, Title)"
+          ],
+          "answer": [
+            "Branch (Branch_Name, Branch_City, Assets)",
+            "Employee (Employee_ID, Employee_Name)",
+            "Works_On (Employee_ID, Branch_Name, Title)"
+          ]
+        },
+        {
+          "question": "Consider the following ER Diagram (ERD). Which of the following relations is/are possible if the above ERD is mapped into a relational model with the minimum number of relations?",
+          "options": [
+            "Student (Stu_ID, Stu_Name, Degree_Program, Specialization, Payment)",
+            "Undergraduate (Stu_ID, Stu_Name, Degree_Program)",
+            "Postgraduate (Stu_ID, Stu_Name, Type)",
+            "BIT (Stu_ID, Type, Payment)",
+            "Student (Stu_ID, Stu_Name, Type, Degree_Program, Specialization, Payment)"
+          ],
+          "answer": [
+            "Student (Stu_ID, Stu_Name, Type, Degree_Program, Specialization, Payment)"
+          ]
+        },
+        {
+          "question": "Which of the following statements is/are true based on the above ERD?",
+          "options": [
+            "This is a total overlapping specialization relationship.",
+            "Every employee should either be a Permanent employee or a Probationary employee or both.",
+            "A Probationary employee may also be a Permanent employee.",
+            "There can be employees who are neither Permanent nor Probationary.",
+            "A Probationary employee cannot be a Permanent employee."
+          ],
+          "answer": [
+            "This is a total overlapping specialization relationship.",
+            "Every employee should either be a Permanent employee or a Probationary employee or both.",
+            "A Probationary employee may also be a Permanent employee."
+          ]
+        },
+        {
+          "question": "Given below are a set of relations identified after mapping the above ERD into a relational model. Which of the following is/are possible relations after mapping?",
+          "options": [
+            "Employee (Emp_ID, NIC, Emp_Name)",
+            "Permanent (Emp_ID, UPF_No)",
+            "Probationary (Emp_ID, NIC, Emp_Name, Period)",
+            "Employee (Emp_ID, NIC, Emp_Name, UPF_No, Period)",
+            "Employee (Emp_ID, NIC, Emp_Name, Per_Flag, UPF_No, Pro_Flag, Period)"
+          ],
+          "answer": [
+            "Employee (Emp_ID, NIC, Emp_Name)",
+            "Permanent (Emp_ID, UPF_No)",
+            "Employee (Emp_ID, NIC, Emp_Name, Per_Flag, UPF_No, Pro_Flag, Period)"
+          ]
+        },
+        {
+          "question": "Consider the following statements about mapping many-to-many (M:N) binary relationships in an ER Diagram (ERD). I. A new relation will be created and primary keys of each participating entity will be copied to the new relation to act as foreign keys. II. Attributes which are parts of the relationship will be added to one of the two entities. III. Primary keys of the entities will be combined to create the primary key in a new relation. Which of the above statements is/are correct?",
+          "options": [
+            "I only",
+            "II only",
+            "III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answer": [
+            "I and III only"
+          ]
+        },
+        {
+          "question": "Assume there are rR and rS number of tuples and nR and nS number of attributes in the relations R and S respectively. If R and S are union compatible, which of the following statements is/are true?",
+          "options": [
+            "(R ∪ S) contains exactly (rR + rS) tuples.",
+            "(R × S) contains exactly (rR * rS) tuples.",
+            "(R ∩ S) contains at most (rR + rS) tuples.",
+            "(R – S) contains at least rS tuples.",
+            "(R − S) contains exactly (rR – rS) tuples."
+          ],
+          "answer": [
+            "(R × S) contains exactly (rR * rS) tuples.",
+            "(R ∩ S) contains at most (rR + rS) tuples."
+          ]
+        },
+        {
+          "question": "Consider the sequence of operations given below. Result1 (𝜎 cat_name = ‘Fiction’ (Book_category)) Result2(book_id, title) (𝜋 b_id, title (Book ⋈category = cat_id (Result1))) Result3(m_id)(𝜋 mem_id (𝜎age>18 (Member))) Result4 (𝜋 book_id (Borrows ⋈mem_id = m_id (Result3))) Result5 (Result2 ÷ Result4) What will the above sequence of operations produce?",
+          "options": [
+            "Book_ids and titles of ‘Fiction’ category books which have been borrowed by any member who is above 18 years of age.",
+            "Book_ids and titles of ‘Fiction’ category books which have been borrowed by any member who is 18 years old.",
+            "Titles of ‘Fiction’ category books each of which have been borrowed by any member who is below 18 years of age.",
+            "Titles of ‘Fiction’ books each of which have been borrowed by every member who is above 18 years of age.",
+            "Titles of ‘Fiction’ category books each of which have been borrowed by every member who is below 18 years old."
+          ],
+          "answer": [
+            "Titles of ‘Fiction’ books each of which have been borrowed by every member who is above 18 years of age."
+          ]
+        },
+        {
+          "question": "Which of the following sequence of operations would result in names of all the members of ‘Gold’ membership type, who have renewed the borrowed books at least once?",
+          "options": [
+            "Result1(𝜋 mem_id, mem_name (Member ⋈mem_type = type_id (𝜎 type_name = ‘Gold’ (Membership_type))) Result2(𝜋 mem_id (𝜎 renew_count > 0 (Borrows))) Result3 (𝜋 mem_name (Member × Result2))",
+            "Result1(𝜋 mem_id (Member ⋈mem_type = type_id (𝜎 type_name = ‘Gold’ (Membership_type))) Result2(m_id)(Result1 ∪ ( 𝜋 mem_id ( 𝜎 renew_count > 0 (Borrows))) Result3 (𝜋 mem_name (Member ⋈mem_id = m_id Result2))",
+            "Result1(𝜋 mem_id (𝜎 type_name = ‘Gold’ (Member × Membership_type )) Result2(𝜋 mem_id (𝜎 renew_count > 0 (Borrows)) Result3 (𝜋 mem_name (Member ⋈mem_id = m_id Result2))",
+            "Result1(𝜋 mem_id, mem_name (Member ⋈mem_type = type_id (𝜎 type_name = ‘Gold’ (Membership_type))) Result2(𝜋 mem_id (𝜎 renew_count > 0 (Borrows))) Result3 (𝜋 mem_name (Member ÷ Result2))",
+            "Result1(𝜋 mem_id (𝜎type_name= ‘Gold’ AND type_id=mem_type (Member × Membership_type )) Result2(m_id)(𝜋 mem_id ( 𝜎 renew_count > 0 (Borrows)) Result3 (𝜋 mem_name (Result1 ⋈mem_id = m_id Result2))"
+          ],
+          "answer": [
+            "Result1(𝜋 mem_id (𝜎type_name= ‘Gold’ AND type_id=mem_type (Member × Membership_type )) Result2(m_id)(𝜋 mem_id ( 𝜎 renew_count > 0 (Borrows)) Result3 (𝜋 mem_name (Result1 ⋈mem_id = m_id Result2))"
+          ]
+        },
+        {
+          "question": "Consider the SQL query given below. SELECT DISTINCT book_id FROM Borrows B WHERE EXISTS (SELECT name FROM Member M WHERE age < 18 AND B.mem_id=M.mem_id); What would be the corresponding sequence of relational algebra operations for the above query?",
+          "options": [
+            "𝜋book_id (𝜎age<18 (Borrows ∗ Member))",
+            "𝜋book_id (Borrows ÷ (𝜎age<18 (Member))))",
+            "𝜋book_id (Borrows − 𝜋mem_id (𝜎age<18 (Member)))",
+            "𝜋book_id (𝜎 age<18 (rows × Member))",
+            "𝜋book_id (Borrows ∩ 𝜋mem_id (𝜎age<18 (Member)))"
+          ],
+          "answer": [
+            "𝜋book_id (Borrows ∩ 𝜋mem_id (𝜎age<18 (Member)))"
+          ]
+        },
+        {
+          "question": "Which of the given answers illustrate the outputs for the following SQL operations I, II, and III respectively? I. SELECT AVG(B) FROM R GROUP BY A; II. SELECT MIN(B) FROM R; III. SELECT DISTINCT B FROM R;",
+          "options": [
+            "{(2, 100)}, {240}, {300, 240, 100, 350}",
+            "{225, 300, 240}, {100}, {300, 240, 100, 350}",
+            "{225, 300, 240}, {240}, {300, 240, 100, 350}",
+            "{300, 240, 100}, {100}, {300, 240}",
+            "{100}, {(240, 300)}, {300, 240, 100, 350}"
+          ],
+          "answer": [
+            "{225, 300, 240}, {100}, {300, 240, 100, 350}"
+          ]
+        },
+        {
+          "question": "Which of the following SQL statements will result in listing A where B is greater than 200 and categorized by A?",
+          "options": [
+            "SELECT A FROM R WHERE B<200 GROUP BY A;",
+            "SELECT A FROM R WHERE B>200;",
+            "SELECT A FROM R WHERE A>200 GROUP BY A;",
+            "SELECT A FROM R WHERE B>200 GROUP BY B;",
+            "SELECT A FROM R WHERE B>200 GROUP BY A;"
+          ],
+          "answer": [
+            "SELECT A FROM R WHERE B>200 GROUP BY A;"
+          ]
+        },
+        {
+          "question": "Consider the following tasks and identify the SQL commands that should be used to accomplish each task. I. Add columns to an existing table. II. Delete existing records in a table. III. Extracts data from a database. IV. Sort Results in ascending and descending order. Which of the following correctly indicate(s) the SQL command sequence required for each of the above tasks?",
+          "options": [
+            "Update, Drop, Select, Order by",
+            "Alter, Delete, Select, Order by",
+            "Alter, Delete, Select, Group by",
+            "Alter, Drop, Select, Group by",
+            "Update, Delete, Select, Order by"
+          ],
+          "answer": [
+            "Alter, Delete, Select, Order by"
+          ]
+        },
+        {
+          "question": "Which of the following SQL statements will execute without any error?",
+          "options": [
+            "INSERT INTO Orders VALUES (1007, 5000, 2020-09-05, 111, 5);",
+            "INSERT INTO Orders VALUES (1202, 5000, 2020-09-05, 101, 5);",
+            "INSERT INTO Orders VALUES (1007, 5000, 2020-09-05, 101, 6);",
+            "INSERT INTO Orders VALUES (1007, 5000, 2020-09-05, 101, 5);",
+            "INSERT INTO Orders VALUES (NULL, 5000, 2020-09-05, 101, 5);"
+          ],
+          "answer": [
+            "INSERT INTO Orders VALUES (1202, 5000, 2020-09-05, 101, 5);"
+          ]
+        },
+        {
+          "question": "Assume that you want to retrieve the names of the customers who have purchased more than 5000 items. Which of the following statements will produce the correct result?",
+          "options": [
+            "SELECT c.CUST_NAME, s.NAME, o.PURCH_AMT FROM Customer c, Salesman s, Orders o WHERE o.PURCH_AMT > 5000;",
+            "SELECT CUST_NAME FROM Customer c LEFT OUTER JOIN Orders o ON (c.CUSTOMER_ID = o.CUSTOMER_ID) WHERE o.PURCH_AMT > 5000;",
+            "SELECT CUST_NAME FROM Customer c LEFT OUTER JOIN Orders o ON (c.CUSTOMER_ID = o.CUSTOMER_ID);",
+            "SELECT * FROM Customer c LEFT OUTER JOIN Orders o ON (c.CUSTOMER_ID = o.CUSTOMER_ID) WHERE o.PURCH_AMT > 5000;",
+            "SELECT c.CUST_NAME FROM Customer c, Orders o WHERE c.CUSTOMER_ID = o.CUSTOMER_ID AND o.PURCH_AMT > 5000;"
+          ],
+          "answer": [
+            "SELECT CUST_NAME FROM Customer c LEFT OUTER JOIN Orders o ON (c.CUSTOMER_ID = o.CUSTOMER_ID) WHERE o.PURCH_AMT > 5000;"
+          ]
+        },
+        {
+          "question": "Which of the following statements will produce a list with salesman name, customer name and their cities for the salesmen and customers who belong to the same city?",
+          "options": [
+            "SELECT salesman.name AS 'Salesman', customer.cust_name, customer.city FROM salesman,customer WHERE salesman.city=customer.city;",
+            "SELECT salesman.name AS 'Salesman', customer.cust_name, customer.city FROM salesman WHERE salesman.city=customer.city;",
+            "SELECT salesman.name AS 'Salesman', customer.city FROM salesman,customer WHERE salesman.city=customer.city;",
+            "SELECT name AS 'Salesman', cust_name, customer.city FROM salesman,customer WHERE salesman.city=customer.city;",
+            "SELECT name AS 'Salesman', cust_name, city FROM salesman,customer WHERE salesman.city=customer.city;"
+          ],
+          "answer": [
+            "SELECT salesman.name AS 'Salesman', customer.cust_name, customer.city FROM salesman,customer WHERE salesman.city=customer.city;"
+          ]
+        },
+        {
+          "question": "Consider the following SQL statement. DELETE FROM customer WHERE CUSTOMER_ID = 101; The execution of the above SQL statement will",
+          "options": [
+            "delete the customer with ID 101",
+            "delete the customer named Sirimal",
+            "delete all the records from the customer table",
+            "result in an error",
+            "delete the customer with ID 101 and result in an error"
+          ],
+          "answer": [
+            "delete the customer with ID 101"
+          ]
+        },
+        {
+          "question": "Assume that the management of a company decided to increase the commission for each salesperson by 5% of their current commission. Which of the following statements will list the name of the salesperson and the NEW_COMMISSION for each salesperson in descending order?",
+          "options": [
+            "SELECT name, commission + commission * 0.5 AS NEW_COMMISSION FROM salesman ORDER BY DESC;",
+            "SELECT name, commission + commission * 0.5 AS NEW_COMMISSION FROM salesman ORDER BY NEW_COMMISSION DESC;",
+            "SELECT name, commission * 0.5 AS NEW_COMMISSION FROM salesman ORDER BY NEW_COMMISSION DESC;",
+            "SELECT name, commission * 0.5 AS NEW_COMMISSION FROM salesman ORDER BY DESC;",
+            "SELECT commission + commission * 0.5 AS NEW_COMMISSION FROM salesman ORDER BY NEW_COMMISSION DESC;"
+          ],
+          "answer": [
+            "SELECT name, commission + commission * 0.5 AS NEW_COMMISSION FROM salesman ORDER BY NEW_COMMISSION DESC;"
+          ]
+        },
+        {
+          "question": "Which of the following is not a Data Definition Language (DDL) command?",
+          "options": [
+            "RENAME",
+            "REVOKE",
+            "UPDATE",
+            "GRANT",
+            "DROP"
+          ],
+          "answer": [
+            "UPDATE"
+          ]
+        },
+        {
+          "question": "Which of the following keywords is/are used with Data Control Language statements?",
+          "options": [
+            "SELECT",
+            "REVOKE",
+            "DELETE",
+            "GRANT",
+            "UPDATE"
+          ],
+          "answer": [
+            "REVOKE",
+            "GRANT"
+          ]
+        },
+        {
+          "question": "A View in a Database Management System is a:",
+          "options": [
+            "base table, which occupies a particular amount of storage space.",
+            "way of automatically achieving a high degree of access control to a database.",
+            "way of keeping the accuracy and consistency of data values in the database.",
+            "way of viewing a system from the perspective of the functions it should perform.",
+            "useful way of limiting a user’s access to various portions of the database."
+          ],
+          "answer": [
+            "way of automatically achieving a high degree of access control to a database.",
+            "useful way of limiting a user’s access to various portions of the database."
+          ]
+        },
+        {
+          "question": "Which of the following SQL statements create(s) a view to see the number of employees working in each department?",
+          "options": [
+            "CREATE VIEW Dept_Employees(Dept_Id, No_of_Employees) AS SELECT Dept,Count(*) FROM Employee GROUP BY Dept;",
+            "CREATE VIEW Dept_Employees(Dept_Id, No_of_Employees) AS SELECT Dept,Count(Dept_Id) FROM Employee GROUP BY Dept;",
+            "CREATE VIEW Dept_Employees(Dept_Id, No_of_Employees) AS SELECT Dept,Count(*) FROM Employee GROUP BY Emp_ID;",
+            "CREATE VIEW Dept_Employees(Dept_Id, No_of_Employees) AS SELECT Dept,Count(DISTINCT Emp_ID) FROM Employee GROUP BY Dept;",
+            "CREATE VIEW Dept_Employees(Dept_Id, No_of_Employees) AS SELECT Dept,Count(Emp_ID) FROM Employee GROUP BY Dept;"
+          ],
+          "answer": [
+            "CREATE VIEW Dept_Employees(Dept_Id, No_of_Employees) AS SELECT Dept,Count(Emp_ID) FROM Employee GROUP BY Dept;"
+          ]
+        },
+        {
+          "question": "The view Fund_Summary can be used to display the EmpNo, Name, Salary and the number of research funds (No_of_Funds) of the department heads who control more than two research fund. CREATE VIEW Fund_Summary (EmpNo, Name, Salary, No_of_Funds) AS SELECT L.EmpNo, L.Name, L.Salary, COUNT(*) FROM Lecturer L, Department D, Research_Fund R WHERE L.EmpNo = D.HeadEmpNo AND L.EmpNo = R.EmpNo GROUP BY L.EmpNo, L.Name, L.Salary HAVING COUNT(*) >2 ; You are given following list of SQL statements to execute on the Fund_Summary view. I. SELECT COUNT(No_of_Funds) FROM Head_Funds; II. SELECT * FROM Head_Funds WHERE COUNT(No_of_Funds) >2; III. CREATE VIEW Head_Fund1 AS SELECT EmpNo, Salary, No_of_Funds FROM Head_Funds WHERE Salary between 50000 and 100000; Which of the following statements is/are true?",
+          "options": [
+            "Only (I) can be executed on Fund_Summary view.",
+            "Only (II) can be executed on Fund_Summary view.",
+            "Only (III) can be executed on Fund_Summary view.",
+            "Only (I) & (II) can be executed on Fund_Summary view.",
+            "Only (II) & (III) can be executed on Fund_Summary view."
+          ],
+          "answer": [
+            "Only (III) can be executed on Fund_Summary view."
+          ]
+        },
+        {
+          "question": "Which of the following statements is/are correct about the above SQL? GRANT SELECT, UPDATE(address) ON Student_details TO Silva;",
+          "options": [
+            "Grant permission to Silva to update address in the Student_details table.",
+            "Grant permission to Silva to retrieve data in the Student_details table.",
+            "Silva is given the right to grant select and update privileges to the other users.",
+            "Silva is given permission only to change the Student_details table.",
+            "Silva has the rights to change and retrieve the data from the Student_details table."
+          ],
+          "answer": [
+            "Grant permission to Silva to update address in the Student_details table.",
+            "Grant permission to Silva to retrieve data in the Student_details table.",
+            "Silva has the rights to change and retrieve the data from the Student_details table."
+          ]
+        },
+        {
+          "question": "Which of the following concepts is/are applicable to 2NF?",
+          "options": [
+            "Data independence",
+            "Full functional dependency",
+            "Partial dependency",
+            "Transitive dependency",
+            "Non-transitive dependency"
+          ],
+          "answer": [
+            "Full functional dependency",
+            "Partial dependency"
+          ]
+        },
+        {
+          "question": "Database security and authorization subsystems use Discretionary security mechanism. Which of the following statements is/are true on Discretionary security mechanism?",
+          "options": [
+            "Granting and revoking privileges are the usual methods of enforcing a Discretionary security mechanism.",
+            "A Discretionary security mechanism is a collection of decision support technologies, aimed at enabling the knowledge worker to make better and faster decisions.",
+            "Discretionary security mechanisms have two levels for assigning privileges to use the database system as account level and relational level.",
+            "Discretionary security mechanism govern the access to the information by the individuals on the basis of the classification of subjects and objects in the system.",
+            "Discretionary security mechanism governs the access of users to the information using a set of predefined discretionary rules and user’s identity."
+          ],
+          "answer": [
+            "Granting and revoking privileges are the usual methods of enforcing a Discretionary security mechanism.",
+            "Discretionary security mechanisms have two levels for assigning privileges to use the database system as account level and relational level.",
+            "Discretionary security mechanism governs the access of users to the information using a set of predefined discretionary rules and user’s identity."
+          ]
+        },
+        {
+          "question": "Which of the following best describes its normal form when all the above data is put into a single relation? StudentID CourseID Name Subject Grade",
+          "options": [
+            "The relation is in 0NF",
+            "The relation is in 1NF",
+            "The relation is in 2NF",
+            "The relation is in 3NF",
+            "The relation is in BCNF"
+          ],
+          "answer": [
+            "The relation is in 1NF"
+          ]
+        },
+        {
+          "question": "Consider the relation Interview (CandidateNo, InterviewDate, InterviewTime, StaffNo, RoomNo) and the following functional dependencies. FD1 : CandidateNo, InterviewDate → InterviewTime, StaffNo, RoomNo FD2 : RoomNo, InterviewDate, InterviewTime → StaffNo, CandidateNo FD3 : StaffNo, InterviewDate → RoomNo Which of the following is/are correct?",
+          "options": [
+            "The relation Interview is in 3NF.",
+            "The relation Interview is in BCNF.",
+            "The FD3 violates BCNF.",
+            "The FD3 violates 3NF.",
+            "The FD2 violates 2NF."
+          ],
+          "answer": [
+            "The relation Interview is in BCNF.",
+            "The FD3 violates BCNF."
+          ]
+        },
+        {
+          "question": "Which of the following statements is/are true with respect to the relation ITEM-SUPPLIER? ItemNo Description VendorName VendorAddress UnitPrice 001 Wireless Mouse PC House No. 12,Colombo 05. 19,500.00 My Shop No. 4/A,Colombo 03. 18,000.00 002 SSD PC House No. 12,Colombo 05. 16,500.00 Green PC No. 2,Colombo 07. 17,000.00 My Shop No. 4/A,Colombo 03. 16,000.00 003 SanDisk Ultra USB Green PC No. 2,Colombo 07. 7,550.00",
+          "options": [
+            "The relation ITEM-SUPPLIER is in unnormalised form.",
+            "The relation ITEM-SUPPLIER is in first normal form.",
+            "Insertion of a new item does not require the insertion of the related vendor details.",
+            "Only the VendorName and VendorAddress are multi-valued attributes in relation ITEM-SUPPLIER.",
+            "ItemNo is the key of the relation ITEM-SUPPLIER."
+          ],
+          "answer": [
+            "The relation ITEM-SUPPLIER is in unnormalised form.",
+            "Only the VendorName and VendorAddress are multi-valued attributes in relation ITEM-SUPPLIER."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "IT2306_2021",
+      "questions": [
+        {
+          "question": "Which of the following statements is/are incorrect regarding End-users and practitioners of a Database?",
+          "options": [
+            "Database administrators tune the DBMS for best performance",
+            "Database administrators choose appropriate structures to represent and store data",
+            "Parametric end users have deep knowledge of database design and DBMS facilities",
+            "System analysts determine the requirements of end users",
+            "Database administrators coordinate and monitor the use of databases"
+          ],
+          "answer": [
+            "Parametric end users have deep knowledge of database design and DBMS facilities"
+          ]
+        },
+        {
+          "question": "Which of the following statements is/are true regarding database languages?",
+          "options": [
+            "DDL allows the user to describe any associated integrity and security constraints.",
+            "DML provides basic insert, delete, and update operations on data held in the database.",
+            "Procedural DML allows users to state what data is needed rather than how it is to be retrieved.",
+            "Non-Procedural DML allows users to tell the system exactly how to manipulate data.",
+            "DML allows the user to describe and name entities, attributes, and relationships required for the application."
+          ],
+          "answer": [
+            "DDL allows the user to describe any associated integrity and security constraints.",
+            "DML provides basic insert, delete, and update operations on data held in the database."
+          ]
+        },
+        {
+          "question": "Logical and physical data independence are two important concepts used to ensure data independence in Database Management Systems. Which of the following is/are true regarding these two concepts?",
+          "options": [
+            "Physical data independence refers to the ability to change the conceptual schema without changing external schemas.",
+            "Logical data independence refers to immunity of conceptual schema to changes in the internal schema.",
+            "Physical data independence ensures that changes in storage space allocation for data and indexes will not affect any internal schemas.",
+            "Logical data independence ensures that changes in entities, attributes and their relationships will not affect external schemas.",
+            "Physical data independence does not require changes to conceptual or external schemas."
+          ],
+          "answer": [
+            "Logical data independence ensures that changes in entities, attributes and their relationships will not affect external schemas."
+          ]
+        },
+        {
+          "question": "Which of the following statements is/are true regarding ANSI/SPARC Architecture? I) The conceptual level describes how the data is stored in the database. II) The external level shows how the different user’s data is stored in the database. III) The internal level describes how the data is stored in the database.",
+          "options": [
+            "I only",
+            "II only",
+            "III only",
+            "I & II only",
+            "I & III only"
+          ],
+          "answer": [
+            "III only"
+          ]
+        },
+        {
+          "question": "Which of the following statements is/are correct with respect to the concept of keys in a relational data model?",
+          "options": [
+            "A composite key can be a primary key.",
+            "Every candidate key is a super key to the relation",
+            "A super key of a relation should be unique and minimal",
+            "A super key with more than one attribute is not a key of the relation",
+            "The candidate key which is selected as the primary key is called a super key"
+          ],
+          "answer": [
+            "A composite key can be a primary key.",
+            "Every candidate key is a super key to the relation"
+          ]
+        },
+        {
+          "question": "Consider the given LECTURE_PLAN relation. course_code lecturer weeks day_of_week time lecture_hall IT1101 Ali 15 SATURDAY 8:00 AM Auditorium 2 IT2001 Kumar 15 SUNDAY 8:00 AM Auditorium 1 IT2203 Gamage 10 MONDAY 5:00 PM Lab A IT3201 Fernando 15 SATURDAY 1:00 PM Lab C IT3305 Wijeratna 12 SUNDAY 1:00 PM Auditorium 1 Which of the following options correctly states the values of I - III? I - The degree of the relation II - The cardinality of the relation III - The domain cardinality of the ‘day_of_week’ attribute",
+          "options": [
+            "I - 5, II - 6, III – 3",
+            "I - 5, II - 6, III – 7",
+            "I - 6, II - 5, III – 3",
+            "I - 6, II - 5, III – 7",
+            "I - 6, II - 6, III - 7"
+          ],
+          "answer": [
+            "I - 6, II - 5, III – 7"
+          ]
+        },
+        {
+          "question": "If the foreign key FK of the relation S refers to the relation R, which of the following statements is/are correct about this referential relationship?",
+          "options": [
+            "The FK can be a part of the relation R",
+            "The value of FK cannot be null in any of the tuples",
+            "The primary key of relation R should not be a composite key",
+            "The FK and the primary key of R must have the same domain",
+            "The FK must contain only one of the attributes in the relation S"
+          ],
+          "answer": [
+            "The FK and the primary key of R must have the same domain"
+          ]
+        },
+        {
+          "question": "Consider the CUSTOMER relation given below and the statements I-IV about the relation. customer_id name NIC contact_no address age I. Every customer is uniquely identified by the NIC (national id card number). II. The customer_id is the primary key field of the relation. III. Every customer must be 18 years or older. IV. Every customer must have a name. Which of the following relational model constraint(s) correctly reflect(s) the requirements of the CUSTOMER relation?",
+          "options": [
+            "NULL constraint on NIC",
+            "Domain constraint on age",
+            "Uniqueness constraint on name",
+            "Entity integrity constraints on name",
+            "Entity integrity constraint on customer_id"
+          ],
+          "answer": [
+            "Domain constraint on age",
+            "Entity integrity constraint on customer_id"
+          ]
+        },
+        {
+          "question": "Which of the following statements is/are correct about the database design process?",
+          "options": [
+            "In the requirements collection and analysis step, the database designers document prospective database user’s data requirements",
+            "In the conceptual schema, detailed descriptions of the entity types, relationships, and constraints are expressed using the concepts provided by the high-level data model.",
+            "The logical design depends on the particular database management system.",
+            "The logical design phase, file organizations, access paths for the database files are specified.",
+            "The physical design process depends on the particular database management system."
+          ],
+          "answer": [
+            "In the requirements collection and analysis step, the database designers document prospective database user’s data requirements",
+            "In the conceptual schema, detailed descriptions of the entity types, relationships, and constraints are expressed using the concepts provided by the high-level data model.",
+            "The physical design process depends on the particular database management system."
+          ]
+        },
+        {
+          "question": "Listed in Column A are different types of attributes and in Column B are descriptions associated with a certain type. Correctly match the description to the most appropriate attribute type. Column A Column B I Composite Attribute A An attribute that cannot be broken down into smaller components II Atomic Attribute B An attribute that can be broken down into component parts III Multivalued Attribute C An attribute whose values can be calculated from related attribute values IV Derived Attribute D An attribute that may take on more than one value for a given entity instance",
+          "options": [
+            "I – B, II – A, III – C, IV – D",
+            "I – B, II – D, III – A, IV – C",
+            "I – B, II – D, III – C, IV – A",
+            "I – B, II – A, III – D, IV – C",
+            "I – B, II – C, III – A, IV – D"
+          ],
+          "answer": [
+            "I – B, II – A, III – D, IV – C"
+          ]
+        },
+        {
+          "question": "Consider the following incomplete ER-diagram regarding a bank database. Which of the following statements is/are true?",
+          "options": [
+            "Payment_No is the primary key of the Payment entity.",
+            "Loan entity and Bank entity can be identified as owner entities for the Payment entity.",
+            "The primary key of Payment entity is a combination of Bank_code, Loan_ID and Payment_No",
+            "The primary key of Payment entity is a combination of Loan_ID and Payment_No",
+            "The Loan entity can be identified as the owner entity of Payment entity."
+          ],
+          "answer": [
+            "The primary key of Payment entity is a combination of Loan_ID and Payment_No",
+            "The Loan entity can be identified as the owner entity of Payment entity."
+          ]
+        },
+        {
+          "question": "The management of ABC hospital is considering implementing a database to enhance their day to day operations. Some of their employee types include doctors, nurses, administrators and office workers. Office workers can work as an administrator. From those employees, one will monitor the whole operation of the hospital. Imagine you are the database designer of the organization and you need to create an ER-diagram for the above scenario. Which of the following statements is/are true regarding the database components?",
+          "options": [
+            "There needs to be a disjointness constraint to specify employee types as doctors, nurses and office workers entities.",
+            "The overlapping constraint can be used to demonstrate the doctors, nurses, administrators and office workers entities in the organization.",
+            "There is a total specialization constraint in the database design.",
+            "There is a partial specialization constraint in the database design.",
+            "There is a ternary relationship within the employee entity."
+          ],
+          "answer": [
+            "The overlapping constraint can be used to demonstrate the doctors, nurses, administrators and office workers entities in the organization.",
+            "There is a partial specialization constraint in the database design."
+          ]
+        },
+        {
+          "question": "Which of the following statements is/are true about Constraints on Generalization and Specialization? I. User-defined subclass defines membership by a specific condition using the same relationship. II. Attribute-defined specialization specifies the membership condition for subclasses using the same attribute of the super class. III. Predicate defined subclasses determine exactly those entities that will become members of each subclass by a condition.",
+          "options": [
+            "I only",
+            "II only",
+            "III only",
+            "I & II only",
+            "II & III only"
+          ],
+          "answer": [
+            "II only",
+            "III only"
+          ]
+        },
+        {
+          "question": "Consider the incomplete ER diagram given below and select correct relation(s) if it is mapped into a relational model.",
+          "options": [
+            "Staff(Emp_ID, Emp_Name,LeaderID)",
+            "Bank_branch(Bank_Code,Branch_No,Address)",
+            "Bank(Bank_Code,Name,Phone_No)",
+            "Bank_phone(Bank_code,Phone_No)",
+            "Bank_branch(Bank_Code,Emp_ID,Branch_No,Address)"
+          ],
+          "answer": [
+            "Staff(Emp_ID, Emp_Name,LeaderID)",
+            "Bank_branch(Bank_Code,Branch_No,Address)"
+          ]
+        },
+        {
+          "question": "Which of the following statements is/are correct regarding the above ER-diagram?",
+          "options": [
+            "Courses may be prerequisites for other courses and is represented a unary relationship.",
+            "There is a total number of three binary relationships in this diagram.",
+            "Lecturers offering certain courses to students is shown as a ternary relationship.",
+            "The primary key for the offers relationship only includes Student_ID and Course_ID as Foreign Keys.",
+            "When mapping the prerequisite relationship into the relational data model, the Primary Key of the relationship includes Course_ID as Foreign Key twice."
+          ],
+          "answer": [
+            "Courses may be prerequisites for other courses and is represented a unary relationship.",
+            "When mapping the prerequisite relationship into the relational data model, the Primary Key of the relationship includes Course_ID as Foreign Key twice."
+          ]
+        },
+        {
+          "question": "Which of the following statements best describe(s) the cardinality of a relationship?",
+          "options": [
+            "The cardinality specifies the maximum number of relationship instances in which an entity can participate.",
+            "The cardinality specifies the number of participating entity types.",
+            "The cardinality specifies the property or characteristic of an entity type that is of interest to the organization.",
+            "The possible cardinality ratios for binary relationship types are 1:1, 1:N, N:1, and M:N.",
+            "Maximum Cardinality is the maximum number of instances of one entity that may be associated with a single occurrence of another entity."
+          ],
+          "answer": [
+            "The cardinality specifies the maximum number of relationship instances in which an entity can participate.",
+            "The possible cardinality ratios for binary relationship types are 1:1, 1:N, N:1, and M:N."
+          ]
+        },
+        {
+          "question": "Which of the following statements best describe(s) the information presented in the EER diagram below?",
+          "options": [
+            "Account entity can be either a current account or a savings account.",
+            "Account entity can be a current account and a savings account at the same time.",
+            "Every Account entity must be at least a current account or a savings account.",
+            "Every Customer entity must be at least a person or an organization.",
+            "The Customer entity is a subclass with more than one superclass."
+          ],
+          "answer": [
+            "Account entity can be either a current account or a savings account.",
+            "Every Account entity must be at least a current account or a savings account."
+          ]
+        },
+        {
+          "question": "Which of the following operations always produces a relation with the same number of attributes as the operand relations?",
+          "options": [
+            "Join",
+            "Union",
+            "Division",
+            "Projection",
+            "Set difference"
+          ],
+          "answer": [
+            "Union",
+            "Set difference"
+          ]
+        },
+        {
+          "question": "Which of the following options states valid relational algebra operations?",
+          "options": [
+            "R1 - R2",
+            "R2 ∩ R1",
+            "R1 x R2",
+            "R1 ÷ R2",
+            "R2 ÷ R1"
+          ],
+          "answer": [
+            "R1 - R2",
+            "R2 ∩ R1"
+          ]
+        },
+        {
+          "question": "Which of the following expressions generate(s) the same result as π grade (R1 ⋈ student_id= s_id R2)?",
+          "options": [
+            "R2 ÷ (ρ(s_id) R1)",
+            "R1 ÷ (ρ(student_id) R2)",
+            "πgrade (R1 ⟕ student_id= s_id R2)",
+            "πgrade (σ s_id=student_id (R1 x R2))",
+            "π student_id, grade (R1 * (ρ(student_id) (R2)"
+          ],
+          "answer": [
+            "πgrade (σ s_id=student_id (R1 x R2))"
+          ]
+        },
+        {
+          "question": "Which of the following statements correctly describe(s) the output produced by the following expression? R1 ÷ ((π student_id R1) - (ρ(student_id) R2))",
+          "options": [
+            "The grades in IT2306 of students with a GPA < 2.",
+            "The grades in IT2306 of students with a GPA ≥ 2.",
+            "The grades in all the courses except IT2306, of students with a GPA < 2.",
+            "The value of the grade in IT2306 divided by the GPA value of all the students with a GPA < 2.",
+            "The value of the mark in IT2306 divided by the GPA value of all the students with a GPA ≥ 2."
+          ],
+          "answer": [
+            "The grades in IT2306 of students with a GPA < 2."
+          ]
+        },
+        {
+          "question": "Which of the following statements is/are correct? SQL language is a,",
+          "options": [
+            "database programming language",
+            "database administration language",
+            "client/server language",
+            "complete programming language",
+            "distributed database language"
+          ],
+          "answer": [
+            "database programming language",
+            "database administration language",
+            "client/server language",
+            "distributed database language"
+          ]
+        },
+        {
+          "question": "Which of the following key words is/are used to specify integrity constraints?",
+          "options": [
+            "CREATE INDEX",
+            "UNIQUE",
+            "CHECK",
+            "FOREIGN KEY",
+            "DROP TABLE"
+          ],
+          "answer": [
+            "UNIQUE",
+            "CHECK",
+            "FOREIGN KEY"
+          ]
+        },
+        {
+          "question": "Match the description listed in Column A with the appropriate SQL functions listed in Column B. Column A Column B I Define a portion of a database that a particular user owns A CREATE INDEX II Defines logical table from one or more tables or views. B CREATE DATABASE III Defines the location of the database (distributed systems) C CREATE TABLE IV Initial allocation of storage space to contain database objects D CREATE LOCATION V Defines an index that enables rapid access E CREATE VIEW F CREATE SCHEMA",
+          "options": [
+            "I-F, II-E, III-B, IV-D, V-A",
+            "I-E, II-A, III-F, IV-C, V-B",
+            "I-D, II-F, III-C, IV-B, V-E",
+            "I-F, II-E, III-D, IV-B, V-A",
+            "I-C, II-D, III-E, IV-F, V-A"
+          ],
+          "answer": [
+            "I-F, II-E, III-B, IV-D, V-A"
+          ]
+        },
+        {
+          "question": "Which of the following statements is/are correct regarding Views in SQL?",
+          "options": [
+            "A view can be derived only from base tables, not from previously defined views.",
+            "A view exists in physical form same as base tables whose tuples are always physically stored in the database.",
+            "Views does not provide any limitations on querying, but limits the possible update operations.",
+            "Integrity constraints and triggers can be defined explicitly for views.",
+            "The view is given a name, a list of attribute names, and a query to specify the contents of the view."
+          ],
+          "answer": [
+            "Views does not provide any limitations on querying, but limits the possible update operations.",
+            "The view is given a name, a list of attribute names, and a query to specify the contents of the view."
+          ]
+        },
+        {
+          "question": "Which of the following statements is/are correct regarding the commonly accepted security goals?",
+          "options": [
+            "Database integrity is lost if unauthorized changes are made to the data by either intentional or accidental acts.",
+            "Database availability refers to making all data objects available to both authentic and unauthentic users.",
+            "Database availability refers to protecting data from unauthorized disclosure.",
+            "Database confidentiality refers to the protection of data from unauthorized disclosure.",
+            "Loss of availability occurs when unauthorized changes are made to the data by either intentional or accidental acts."
+          ],
+          "answer": [
+            "Database integrity is lost if unauthorized changes are made to the data by either intentional or accidental acts.",
+            "Database confidentiality refers to the protection of data from unauthorized disclosure."
+          ]
+        },
+        {
+          "question": "Which of the following statements will execute without any error?",
+          "options": [
+            "INSERT INTO DEPENDENT VALUES (3, 'Ama', 'Perera', 'Child', 105);",
+            "INSERT INTO DEPENDENT VALUES (6, 'Ama', 'Perera', 'Child', 105);",
+            "INSERT INTO DEPENDENT VALUES (6, 'Ama', 'Perera', 'Child', 106);",
+            "INSERT INTO DEPENDENT VALUES (6, 'Ama', 'Perera', 'Sibling', 105);",
+            "INSERT INTO DEPENDENT VALUES (6, 'Ama', 'Perera', 'Child', 104);"
+          ],
+          "answer": [
+            "INSERT INTO DEPENDENT VALUES (6, 'Ama', 'Perera', 'Child', 105);",
+            "INSERT INTO DEPENDENT VALUES (6, 'Ama', 'Perera', 'Child', 104);"
+          ]
+        },
+        {
+          "question": "Which of the following statements will give a list of employees who works at the IT department with a salary more than 20,000.00?",
+          "options": [
+            "SELECT e.f_name, e.l_name from EMPLOYEE e, DEPARTMENT d WHERE e.dept_id in (SELECT d.dept_id from DEPARTMENT WHERE d.dept_name = 'IT');",
+            "SELECT f_name, l_name from EMPLOYEE WHERE dept_id in (SELECT dept_id from DEPARTMENT WHERE dept_name = ‘IT’) AND salary >= 20,000.00;",
+            "SELECT e.f_name, e.l_name from EMPLOYEE e, DEPARTMENT d WHERE e.dept_id in (SELECT d.dept_id from DEPARTMENT WHERE d.dept_name = 'IT') AND salary >= 20,000.00;",
+            "SELECT e.f_name, e.l_name from EMPLOYEE e, DEPARTMENT d WHERE e.salary >=20,000.00 AND d.dept_id in (SELECT e.dept_id from DEPARTMENT WHERE d.dept_name = 'IT');",
+            "SELECT f_name, l_name from EMPLOYEE WHERE salary >= 20,000.00;"
+          ],
+          "answer": [
+            "SELECT e.f_name, e.l_name from EMPLOYEE e, DEPARTMENT d WHERE e.dept_id in (SELECT d.dept_id from DEPARTMENT WHERE d.dept_name = 'IT') AND salary >= 20,000.00;"
+          ]
+        },
+        {
+          "question": "Consider the following SQL statement. DELETE FROM EMPLOYEE WHERE emp_id = 101; Which of the following outputs is/are true when it is executed?",
+          "options": [
+            "delete the employee with ID 101 from the EMPLOYEE table",
+            "delete the employee named Neela from the EMPLOYEE table",
+            "delete all the records from the EMPLOYEE table",
+            "result in an error",
+            "delete the dependent named Primal from the DEPENDENT table"
+          ],
+          "answer": [
+            "delete the employee with ID 101 from the EMPLOYEE table",
+            "delete the dependent named Primal from the DEPENDENT table"
+          ]
+        },
+        {
+          "question": "Assume that the management of the company decided to increase the salary of each employee by 3% of their current salary. Which of the following statements will list the f_ name of the employee and the NEW_SALARY for each employee in the marketing department in ascending order?",
+          "options": [
+            "SELECT f_name, salary + salary * 0.03 AS NEW_SALARY FROM EMPLOYEE ORDER BY NEW_SALARY ASC;",
+            "SELECT f_name, salary + salary * 0.03 AS NEW_SALARY FROM EMPLOYEE WHERE dept_id = 2 ORDER BY NEW_SALARY;",
+            "SELECT f_name, salary + salary * 0.03 AS NEW_SALARY FROM EMPLOYEE WHERE dept_id = 2 ORDER BY NEW_SALARY DESC;",
+            "SELECT f_name, salary + salary * 0.03 AS NEW_SALARY FROM EMPLOYEE WHERE dept_id = 2 ORDER BY NEW_SALARY ASC;",
+            "SELECT f_name, salary + salary * 0.03 AS NEW_SALARY FROM EMPLOYEE WHERE dept_id = 2;"
+          ],
+          "answer": [
+            "SELECT f_name, salary + salary * 0.03 AS NEW_SALARY FROM EMPLOYEE WHERE dept_id = 2 ORDER BY NEW_SALARY ASC;"
+          ]
+        },
+        {
+          "question": "Consider the following SQL query: SELECT DISTINCT e.f_name, e.l_name FROM EMPLOYEE e, DEPENDENT d WHERE e.emp_id IN (SELECT d.emp_id FROM DEPENDENT WHERE d.l_name = 'De Silva') Which of the following lists the correct output when the above query is executed?",
+          "options": [
+            "Piyumi De Silva, Binura De Silva, Lalith De Silva",
+            "Piyumi De Silva, Binura De Silva",
+            "Piyumi De Silva, Lalith De Silva",
+            "Lalith De Silva",
+            "Lalith De Silva, Binura De Silva"
+          ],
+          "answer": [
+            "Lalith De Silva"
+          ]
+        },
+        {
+          "question": "Which of the following is/are correct regarding the given SQL statement? INSERT INTO EMPLOYEE VALUES (106, 'Anura', 'Lekamge', 6, 22000.00, 3);",
+          "options": [
+            "It will execute without an error and add one row to the EMPLOYEE table.",
+            "It will give an error and add one row to the EMPLOYEE table.",
+            "It will give an error because emp_id 106 is already in the EMPLOYEE table.",
+            "It will give an error because job_id 6 is not in the JOB table.",
+            "IT will give an error because dept_id 3 is not in the DEPARTMENT table."
+          ],
+          "answer": [
+            "It will execute without an error and add one row to the EMPLOYEE table."
+          ]
+        },
+        {
+          "question": "Which of the following statements is/are correct regarding access control in DBMS?",
+          "options": [
+            "The two main approaches to access control are Discretionary and Mandatory Access Control.",
+            "Grant and Revoke are the typical method of enforcing Mandatory Access Control.",
+            "Typical security classes in Mandatory Access Control are top secret (TS), secret (S), confidential (C) and unclassified (U).",
+            "Mandatory Access Control would typically be combined with the Discretionary Access Control mechanisms.",
+            "Mandatory Access Control governs the access of users to information on the basis of user’s identity and predefined rules."
+          ],
+          "answer": [
+            "The two main approaches to access control are Discretionary and Mandatory Access Control.",
+            "Typical security classes in Mandatory Access Control are top secret (TS), secret (S), confidential (C) and unclassified (U).",
+            "Mandatory Access Control would typically be combined with the Discretionary Access Control mechanisms."
+          ]
+        },
+        {
+          "question": "Which of the following statements is/are true with regards to the following CREATE VIEW statement? CREATE VIEW Employee_payments AS SELECT Emp_no, Dept_name, Emp_name, Basic_salary, Allowances FROM Employee_personal, Department WHERE Dept_no=Dept_number;",
+          "options": [
+            "Employee_payments is a base table.",
+            "Employee_payments is a virtual table.",
+            "Employee_personal and Department required to be virtual tables.",
+            "Employee_personal and Department might to be base tables or virtual tables.",
+            "Employee_personal and Department required to be base tables."
+          ],
+          "answer": [
+            "Employee_payments is a virtual table.",
+            "Employee_personal and Department might to be base tables or virtual tables."
+          ]
+        },
+        {
+          "question": "Which of the following SQL statements create(s) the view TotalBalance to see the total balance maintained by each customer? ACCOUNT (Account_Id,Avail_Balance,Cust_Id,Open_Branch_Id, Account_Type) CUSTOMER (Customer_Id,Name,Address,DOB) Assumption: Once customer may create multiple accounts using different account types.",
+          "options": [
+            "SELECT Cust_Id, Name, SUM(Avail_Balance) AS TotalBalance FROM ACCOUNT, CUSTOMER WHERE Cust_Id= Customer_Id GROUP BY Cust_Id HAVING SUM(Avail_Balance) >0;",
+            "SELECT Cust_Id, Name, SUM(Avail_Balance) AS TotalBalance FROM ACCOUNT, CUSTOMER WHERE Cust_Id=Customer_Id GROUP BY Cust_Id;",
+            "SELECT Cust_Id, Name, SUM(Avail_Balance) AS TotalBalance FROM ACCOUNT, CUSTOMER WHERE Cust_Id= Customer_Id GROUP BY Account_Id;",
+            "SELECT Cust_Id, Name, Avail_Balance AS TotalBalance FROM ACCOUNT, CUSTOMER WHERE Cust_Id= Customer_Id GROUP BY Cust_Id;",
+            "SELECT Cust_Id, Name, SUM(Avail_Balance) AS TotalBalance FROM ACCOUNT AND CUSTOMER WHERE ACCOUNT.Cust_Id= CUSTOMER.Customer_Id GROUP BY Cust_Id;"
+          ],
+          "answer": [
+            "SELECT Cust_Id, Name, SUM(Avail_Balance) AS TotalBalance FROM ACCOUNT, CUSTOMER WHERE Cust_Id=Customer_Id GROUP BY Cust_Id;"
+          ]
+        },
+        {
+          "question": "The following SQL statement creates a view called ‘Head_Funds’ to display the Employee Number, Name and the Total research funds ‘TBudget’ of the department heads. CREATE VIEW Head_Funds AS SELECT D.HeadEmpNo, L.Name, SUM(Budget) AS TBudget FROM Research_Fund R, Lecturer L, Department D WHERE D.HeadEmpNo = R.EmpNo AND D.HeadEmpNo = L.EmpNo GROUP BY HeadEmpNo, Name; You will be given the following SQL statements to execute on the ‘Head_Funds’ view created above. I. SELECT * FROM Head_Funds WHERE Name = Silva; II. INSERT INTO Head_Funds VALUES (1,’Fernando’,50000); III. CREATE VIEW Head_Fund1 AS SELECT HeadEmpNo, Name, TBudget FROM Head_Funds WHERE TBudget >30000; Which of the following statements is/are true?",
+          "options": [
+            "Only (I) can be executed on Head_Funds view.",
+            "Only (II) can be executed on Head_Funds view.",
+            "Only (III) can be executed on Head_Funds view",
+            "Only (I) and (II) can be executed on Head_Funds view",
+            "Only (II) and (III) can be executed on Head_Funds view"
+          ],
+          "answer": [
+            "Only (I) can be executed on Head_Funds view.",
+            "Only (III) can be executed on Head_Funds view"
+          ]
+        },
+        {
+          "question": "What is the candidate key of the MARKET relation?",
+          "options": [
+            "shop",
+            "building",
+            "shop, building",
+            "product, building",
+            "product, shop"
+          ],
+          "answer": [
+            "product, shop"
+          ]
+        },
+        {
+          "question": "Which of the following functional dependencies exist in MARKET relation based on the above given rules?",
+          "options": [
+            "shop → product",
+            "shop → building",
+            "building, product → shop",
+            "building → product",
+            "shop, product → building"
+          ],
+          "answer": [
+            "shop → building",
+            "shop, product → building"
+          ]
+        },
+        {
+          "question": "Consider the given functional dependencies on the following relational schema. Emp_No → {Emp_name, Bdate, Address, Dept_No} Dept_No → {Dept_name, Mgr_No} Which of the additional functional dependencies can be inferred from the above functional dependencies?",
+          "options": [
+            "Emp_No → {Dept_name, Mgr_No}",
+            "Emp_name→ Dept_No",
+            "Emp_Name→ Dept_name",
+            "Emp_No → Dept_No",
+            "Emp_name, Dept_No → Mgr_No"
+          ],
+          "answer": [
+            "Emp_No → {Dept_name, Mgr_No}",
+            "Emp_No → Dept_No"
+          ]
+        },
+        {
+          "question": "Consider the WAREHOUSE relation and its functional dependencies. w-code prod-code prod-name prod-qty mgr-code mgr-name Functional Dependencies I. prod-code → prod-name II. mgr-code → mgr-name III. w-code → mgr-code, mgr-name IV. w-code, prod-code → prod-qty Which of the following statements is/are true for the above relation?",
+          "options": [
+            "Fully functional dependency exists between prod-code and prod-name",
+            "Transitive dependency exists between mgr-code and mgr-name",
+            "The WAREHOUSE relation is in the 2NF",
+            "The WAREHOUSE relation is in the 3NF",
+            "The composite key w-code, p-code determines the unique records in the relation"
+          ],
+          "answer": [
+            "Fully functional dependency exists between prod-code and prod-name",
+            "Transitive dependency exists between mgr-code and mgr-name",
+            "The WAREHOUSE relation is in the 3NF"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "EN2106_2020",
+      "questions": [
+        {
+          "question": "Which of the following is/are NOT application software?",
+          "options": [
+            "Graphics Software",
+            "System Utilities",
+            "Word Processing",
+            "Security Monitors",
+            "Accounting Software"
+          ],
+          "answer": [
+            "System Utilities",
+            "Security Monitors"
+          ]
+        },
+        {
+          "question": "Which of the following is/are TRUE with respect to software projects?",
+          "options": [
+            "The environments to which software is made do NOT change regularly.",
+            "A small change to a few lines of code could do a big change in the overall behavior of the system.",
+            "Because of intangibility it is difficult to specify software.",
+            "It is difficult for a customer to specify requirements completely.",
+            "It is easy to test software exhaustively."
+          ],
+          "answer": [
+            "A small change to a few lines of code could do a big change in the overall behavior of the system.",
+            "Because of intangibility it is difficult to specify software.",
+            "It is difficult for a customer to specify requirements completely."
+          ]
+        },
+        {
+          "question": "Which of the following is/are NOT TRUE with respect to software cost and failures?",
+          "options": [
+            "Increasing the system complexity is one of the main reasons for software failure.",
+            "Software development cost decreases rapidly over the time.",
+            "Software does not wear out in the same sense as hardware.",
+            "Failure rate of software can rise, when a new change is introduced to the software.",
+            "Use of software engineering methods minimize software failures."
+          ],
+          "answer": [
+            "Software development cost decreases rapidly over the time."
+          ]
+        },
+        {
+          "question": "Which of the following is/are NOT a key challenge facing software engineering?",
+          "options": [
+            "Heterogeneity",
+            "Increasing the power of Hardware",
+            "Security and trust",
+            "Rapid growth of the social media",
+            "Business and social changes"
+          ],
+          "answer": [
+            "Increasing the power of Hardware"
+          ]
+        },
+        {
+          "question": "Which of the following is/are NOT (an) activity(ies) of a typical Software Process?",
+          "options": [
+            "Aggregation",
+            "Validation",
+            "Evolution",
+            "Implementation",
+            "Abstraction"
+          ],
+          "answer": [
+            "Aggregation",
+            "Abstraction"
+          ]
+        },
+        {
+          "question": "Which of the following is/are NOT TRUE with regard to the Waterfall model?",
+          "options": [
+            "It is a good example of a plan-driven process.",
+            "It is more suitable for projects that have vague requirements.",
+            "It allows clients to provide their feedback during system development.",
+            "It plans and schedules all the process activities before starting software development.",
+            "It is an old method that is not popular now."
+          ],
+          "answer": [
+            "It is more suitable for projects that have vague requirements.",
+            "It allows clients to provide their feedback during system development."
+          ]
+        },
+        {
+          "question": "Which of the following is/are TRUE with regard to Incremental Development?",
+          "options": [
+            "The process is not visible.",
+            "Errors are difficult to be identified.",
+            "The software could be developed faster during the software life cycle.",
+            "System structure tends to degrade as new increments are added.",
+            "It is not flexible and so is expensive if requirements and scope change."
+          ],
+          "answer": [
+            "The software could be developed faster during the software life cycle.",
+            "System structure tends to degrade as new increments are added."
+          ]
+        },
+        {
+          "question": "Which of the following is/are NOT (a) Process Stage(s) of Reuse-Based Software Development?",
+          "options": [
+            "Requirement specification",
+            "Software Discovery and Evaluation",
+            "Requirements design",
+            "Application system configuration",
+            "Component adaptation and integration"
+          ],
+          "answer": [
+            "Requirements design"
+          ]
+        },
+        {
+          "question": "Which of the following is/are NOT (a) process improvement activity(ies)?",
+          "options": [
+            "Process measurement",
+            "Process analysis",
+            "Process validation",
+            "Process change",
+            "Process evolution"
+          ],
+          "answer": [
+            "Process validation"
+          ]
+        },
+        {
+          "question": "Which of the following is/are NOT agile software development method(s)?",
+          "options": [
+            "Spiral Model",
+            "XP Programming",
+            "KANBAN",
+            "Prototype",
+            "SCRUM"
+          ],
+          "answer": [
+            "Spiral Model",
+            "Prototype"
+          ]
+        },
+        {
+          "question": "Which of the following is/are NOT (an) Agile principle(s)?",
+          "options": [
+            "Highest priority is to satisfy the customer through early and continuous delivery of valuable software.",
+            "Welcome changing requirements, even late in development.",
+            "Deliver working software at the end of the project.",
+            "Business people and developers work separately.",
+            "Working software is the primary measure of progress."
+          ],
+          "answer": [
+            "Deliver working software at the end of the project.",
+            "Business people and developers work separately."
+          ]
+        },
+        {
+          "question": "Three pillars of the SCRUM are",
+          "options": [
+            "Transparency",
+            "Verification",
+            "Inspection",
+            "Adaptation",
+            "Agility"
+          ],
+          "answer": [
+            "Transparency",
+            "Inspection",
+            "Adaptation"
+          ]
+        },
+        {
+          "question": "Which of the following is/are NOT TRUE with regard to requirements?",
+          "options": [
+            "Requirements contain the descriptions of the services that a system should provide and the constraints on its operation.",
+            "It is easy for clients to express their requirements.",
+            "Designing the requirements using engineering approaches is called requirements engineering.",
+            "A structured document setting out detailed descriptions of the system’s functions, services and operational constraints is called System requirements.",
+            "The term requirement is not used consistently in the software industry."
+          ],
+          "answer": [
+            "It is easy for clients to express their requirements."
+          ]
+        },
+        {
+          "question": "Which of the following would be the functional requirements of a system which allow online shopping for customers?",
+          "options": [
+            "The system should be fast enough to work without delaying the business process.",
+            "Regular customers shall be able to login to the system.",
+            "User interface of the system should be easy for customers to operate without any confusion.",
+            "System should provide the total value of the shopping cart at the time of check-out.",
+            "System should be available 24 x 7 for all customers."
+          ],
+          "answer": [
+            "Regular customers shall be able to login to the system.",
+            "System should provide the total value of the shopping cart at the time of check-out."
+          ]
+        },
+        {
+          "question": "........... is the ability to exchange information and communicate with internal and external applications and systems.",
+          "options": [
+            "Integrity",
+            "Interoperability",
+            "Portability",
+            "Scalability",
+            "Recoverability"
+          ],
+          "answer": [
+            "Interoperability"
+          ]
+        },
+        {
+          "question": "Which of the following is/are NOT key activities of the requirements engineering process?",
+          "options": [
+            "Requirements elicitation and analysis",
+            "Requirements Specification",
+            "Requirements design",
+            "Requirements Validation",
+            "Requirements Evolution"
+          ],
+          "answer": [
+            "Requirements design"
+          ]
+        },
+        {
+          "question": "Which of the following is/are the problems of Requirements Analysis?",
+          "options": [
+            "Stakeholders express requirements in their own terms.",
+            "Stakeholders may want the system as early as possible.",
+            "Writing down the requirements takes lot of time.",
+            "Different stakeholders may have conflicting requirements.",
+            "The requirements may change during the analysis process."
+          ],
+          "answer": [
+            "Stakeholders express requirements in their own terms.",
+            "Different stakeholders may have conflicting requirements.",
+            "The requirements may change during the analysis process."
+          ]
+        },
+        {
+          "question": "Which of the following should NOT be (an) actor(s) in the use case diagram of a typical Pharmacy Management System?",
+          "options": [
+            "Librarian",
+            "Library Members",
+            "QA Engineer",
+            "System Admin",
+            "System Developer"
+          ],
+          "answer": [
+            "Librarian",
+            "Library Members",
+            "QA Engineer"
+          ]
+        },
+        {
+          "question": "Which of the following is/are types of checks, that should be carried out on requirements during the requirements validation process?",
+          "options": [
+            "Consistency",
+            "Maintainability",
+            "Completeness",
+            "Adoptability",
+            "Verifiability"
+          ],
+          "answer": [
+            "Consistency",
+            "Completeness",
+            "Verifiability"
+          ]
+        },
+        {
+          "question": "Which of the following is/are NOT (a) UML diagram(s)?",
+          "options": [
+            "Activity diagram",
+            "Interface diagram",
+            "Use case diagram",
+            "Class diagram",
+            "ER diagram"
+          ],
+          "answer": [
+            "Interface diagram",
+            "ER diagram"
+          ]
+        },
+        {
+          "question": "Which of the following is/are TRUE with respect to Sequence diagrams?",
+          "options": [
+            "Sequence diagrams are NOT part of the UML diagrams.",
+            "They have used to model the interactions between the actors and the objects within a system.",
+            "Interactions between objects in the sequence diagram are indicated by annotated arrows.",
+            "They show the sequence of interactions that take place during a particular use case or use case instance.",
+            "They are developed in the software implementation stage."
+          ],
+          "answer": [
+            "They have used to model the interactions between the actors and the objects within a system.",
+            "Interactions between objects in the sequence diagram are indicated by annotated arrows.",
+            "They show the sequence of interactions that take place during a particular use case or use case instance."
+          ]
+        },
+        {
+          "question": "In object-oriented languages, such as Java, generalization is implemented using,",
+          "options": [
+            "Encapsulation",
+            "Polymorphism",
+            "Inheritance",
+            "Abstraction",
+            "Modularity"
+          ],
+          "answer": [
+            "Inheritance"
+          ]
+        },
+        {
+          "question": "The following diagram shows a part of the class diagram of a company.\nEmployee\nName:\nAge:\nNIC:\nA\nID:\nB\nHours _worked:\nValues that A and B can take are:",
+          "options": [
+            "Manager",
+            "Owner",
+            "Customer",
+            "Cashier",
+            "Sales Executive"
+          ],
+          "answer": [
+            "Manager",
+            "Cashier"
+          ]
+        },
+        {
+          "question": "According to the UML notations used in the following diagram, values that X and Y can take are:\nEngine\nX\nY",
+          "options": [
+            "Car",
+            "Petrol engine",
+            "Piston",
+            "Diesel engine",
+            "Spark Plug"
+          ],
+          "answer": [
+            "Petrol engine",
+            "Diesel engine"
+          ]
+        },
+        {
+          "question": "Which of the following is/are NOT (a) part of a 4+1 View Model of Software Architecture?",
+          "options": [
+            "Logical view",
+            "Process view",
+            "Product view",
+            "Design view",
+            "Development view"
+          ],
+          "answer": [
+            "Product view",
+            "Design view"
+          ]
+        },
+        {
+          "question": "The following diagram shows a web application architecture using the MVC pattern.\nX\nHTTP request processing\nApplication-specific logic\nData validation\nY\nDynamic page\nGeneration\nForms management\nZ\nBusiness logic\nDatabase\nUpdate\nrequest\nRefresh\nrequest\nChange\nNotification\nForm to\ndisplay\nUser\nevents\nValues X, Y and Z can take respectively are:",
+          "options": [
+            "Model, View, Controller",
+            "Controller, Model, View",
+            "View, Controller, Model",
+            "Controller, View, Model",
+            "Model, Controller, View"
+          ],
+          "answer": [
+            "Controller, View, Model"
+          ]
+        },
+        {
+          "question": "Which of the following is/are NOT TRUE regarding the repository architecture?",
+          "options": [
+            "It is suited to applications where data is generated by one sub-system and used by another.",
+            "It is a system architecture based on the concept of a shared database.",
+            "It is suitable for control systems such as nuclear reactor control software.",
+            "It is on efficient way to share large amounts of data.",
+            "It allows different policies on its sub-systems."
+          ],
+          "answer": [
+            "It is suitable for control systems such as nuclear reactor control software."
+          ]
+        },
+        {
+          "question": "Which of the following is/are TRUE regarding the Client–Server architecture?",
+          "options": [
+            "General functionalities need to be implemented by all services.",
+            "It is used when data in a shared database has to be accessed from a range of locations.",
+            "It can be used when the load on a system is variable.",
+            "It is where a set of stand-alone clients provide specific services and set of servers call on those services.",
+            "Performance of the model may be unpredictable."
+          ],
+          "answer": [
+            "It is used when data in a shared database has to be accessed from a range of locations.",
+            "It can be used when the load on a system is variable.",
+            "Performance of the model may be unpredictable."
+          ]
+        },
+        {
+          "question": "Which of the following is/are NOT uses of Application Architectures?",
+          "options": [
+            "As a way of organizing the work of the development team.",
+            "As a requirement gathering tool.",
+            "As a protptype to demonstrate the system for the client.",
+            "As a vocabulary for talking about application types.",
+            "As a starting point for architectural design."
+          ],
+          "answer": [
+            "As a requirement gathering tool."
+          ]
+        },
+        {
+          "question": "Which of the following is/are TRUE with respect to design patterns?",
+          "options": [
+            "They are descriptions of the problem and the essence of its solution.",
+            "They are software libraries which can be reused when coding.",
+            "They should be very specific to be reused in different settings.",
+            "They are ways of reusing abstract knowledge about a problem and its solution.",
+            "It is always good to use design patterns."
+          ],
+          "answer": [
+            "They are descriptions of the problem and the essence of its solution.",
+            "They are ways of reusing abstract knowledge about a problem and its solution."
+          ]
+        },
+        {
+          "question": "Which of the following may NOT be included in a configuration database?",
+          "options": [
+            "Sales Information",
+            "Installation Manual",
+            "System Specification",
+            "Program Code",
+            "Company Policy"
+          ],
+          "answer": [
+            "Sales Information"
+          ]
+        },
+        {
+          "question": "Which of the following is/are TRUE with respect to free and open source software (FOSS)?",
+          "options": [
+            "FOSS means, you do not need to pay for the software.",
+            "Source code of FOSS is always available.",
+            "Open source development encourages volunteers to participate in the development process.",
+            "If you modify an open source software, you should always make it open source.",
+            "You can make a revenue from free and open source software."
+          ],
+          "answer": [
+            "Source code of FOSS is always available.",
+            "Open source development encourages volunteers to participate in the development process.",
+            "You can make a revenue from free and open source software."
+          ]
+        },
+        {
+          "question": "Which of the following is/are TRUE with respect to software testing?",
+          "options": [
+            "Software testing reveals the absence of errors.",
+            "It helps us to deliver 100% error free software to the customer.",
+            "It helps to reduce the maintenance cost.",
+            "It demostrates to the customer that the software meets its requirements.",
+            "Verification is to check whether we are building the right product."
+          ],
+          "answer": [
+            "It helps to reduce the maintenance cost.",
+            "It demostrates to the customer that the software meets its requirements.",
+            "Verification is to check whether we are building the right product."
+          ]
+        },
+        {
+          "question": "Which of the following can NOT be tested in static software testing?",
+          "options": [
+            "Performance",
+            "Unused variables",
+            "Adopting standards",
+            "User-friendliness",
+            "Usability"
+          ],
+          "answer": [
+            "Performance",
+            "User-friendliness",
+            "Usability"
+          ]
+        },
+        {
+          "question": "Which of the following is/are NOT (a) type of development testing?",
+          "options": [
+            "Unit testing",
+            "Interface testing",
+            "Beta testing",
+            "Release testing",
+            "System Testing"
+          ],
+          "answer": [
+            "Beta testing"
+          ]
+        },
+        {
+          "question": "The test run to check that newly added functionality does not affect existing functionally is called",
+          "options": [
+            "White-box testing",
+            "Regression testing",
+            "Alpha testing",
+            "Stress testing",
+            "Interface Testing"
+          ],
+          "answer": [
+            "Regression testing"
+          ]
+        },
+        {
+          "question": "Which of the following is/are TRUE with respect to Test-Driven Development?",
+          "options": [
+            "Tests are written and executed after coding.",
+            "It does not move on to the next increment until the code that has been developed passes its test.",
+            "It cannot be used in plan-driven development processes.",
+            "It implements as an automated test whenever possible.",
+            "When implementing a new functionality, it has to re-run the test."
+          ],
+          "answer": [
+            "It does not move on to the next increment until the code that has been developed passes its test.",
+            "It implements as an automated test whenever possible.",
+            "When implementing a new functionality, it has to re-run the test."
+          ]
+        },
+        {
+          "question": "The following diagram shows the software evolution process.\nX can be,",
+          "options": [
+            "Validating Requirements",
+            "Design for Change",
+            "Impact Analysis",
+            "Estimate the Cost",
+            "Seeking Approval"
+          ],
+          "answer": [
+            "Impact Analysis"
+          ]
+        },
+        {
+          "question": "Which of the following is/are TRUE with respect to software maintenance?",
+          "options": [
+            "The term ”Software maintenance” is mostly used for changing custom software.",
+            "Software maintenance cost is usually less than the development cost.",
+            "Maintenance cost decreases as software is maintained.",
+            "Ageing software can have high support costs.",
+            "Maintenance does NOT normally involve major changes to the system’s architecture."
+          ],
+          "answer": [
+            "The term ”Software maintenance” is mostly used for changing custom software.",
+            "Ageing software can have high support costs.",
+            "Maintenance does NOT normally involve major changes to the system’s architecture."
+          ]
+        },
+        {
+          "question": "Which of the following is/are NOT (a) activity(ies) of software reengineering process?",
+          "options": [
+            "Source code translation",
+            "Requirement Validation",
+            "Program modularization",
+            "Adopting standards",
+            "Data reengineering"
+          ],
+          "answer": [
+            "Requirement Validation"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "EN2106_2021",
+      "questions": [
+        {
+          "question": "Which of the following is/are system software?",
+          "options": [
+            "Ubuntu OS",
+            "ERP Systems",
+            "IDEs",
+            "System Utilities",
+            "Electronic Spread Sheets"
+          ],
+          "answer": [
+            "Ubuntu OS",
+            "System Utilities"
+          ]
+        },
+        {
+          "question": "Which of the following is/are specific problems only for software development project, but not to the other projects?",
+          "options": [
+            "Possibility of going over budget.",
+            "Requirements change regularly.",
+            "Communication gaps between customers and developers.",
+            "Failure due poor project management",
+            "Difficulty of testing exhaustively"
+          ],
+          "answer": [
+            "Requirements change regularly.",
+            "Difficulty of testing exhaustively"
+          ]
+        },
+        {
+          "question": "Which of the following is/are NOT (a) key feature(s) of a good software?",
+          "options": [
+            "Intangibility",
+            "Security",
+            "Low budget",
+            "Acceptability",
+            "Maintainability"
+          ],
+          "answer": [
+            "Intangibility",
+            "Low budget"
+          ]
+        },
+        {
+          "question": "Which of the following is a /are feature(s) of Web-based software engineering?",
+          "options": [
+            "Develop using waterfall model.",
+            "Reusability of software components.",
+            "Serving as service-oriented systems",
+            "Heavy involvement of users at the time of development.",
+            "Having rich interfaces."
+          ],
+          "answer": [
+            "Reusability of software components.",
+            "Serving as service-oriented systems",
+            "Having rich interfaces."
+          ]
+        },
+        {
+          "question": "Which of the following is/are activities of a typical Software Process?",
+          "options": [
+            "Specification",
+            "Observing",
+            "Evolution",
+            "Abstraction",
+            "Implementation"
+          ],
+          "answer": [
+            "Specification",
+            "Evolution",
+            "Implementation"
+          ]
+        },
+        {
+          "question": "Consider the following statements regarding the Waterfall model in software development. A. User involvement is minimum during the development time. B. Having rich documentation than the other process models. C. It is an old method that is not popular now. Which of the above statements is/are TRUE?",
+          "options": [
+            "A only.",
+            "A and B only.",
+            "B and C only.",
+            "C only.",
+            "A, B and C."
+          ],
+          "answer": [
+            "A, B and C."
+          ]
+        },
+        {
+          "question": "Which of the following is/are NOT (a) benefit(s) of prototype model compared to other models?",
+          "options": [
+            "Reducing the development cost.",
+            "Improving the design quality.",
+            "Improving the system usability.",
+            "Reducing the system requirements.",
+            "A closer match to users’ real needs."
+          ],
+          "answer": [
+            "Reducing the development cost.",
+            "Reducing the system requirements."
+          ]
+        },
+        {
+          "question": "Consider the following statements regarding the incremental delivery of a software project. A. It does not fit well when the new system is intended to replace an existing system. B. There is a risk of overall project failure in this method. C. Users can use all the system functionalities from the beginning in this method. Which of the above statements is/are TRUE?",
+          "options": [
+            "A only.",
+            "B only.",
+            "C only.",
+            "A and C only.",
+            "A, B and C."
+          ],
+          "answer": [
+            "A only."
+          ]
+        },
+        {
+          "question": "Consider the following statements regarding the Reuse-Based Software Development. A. This means to reuse the experienced human resources to a similar project. B. In this model, requirements would be refined to match with the reusable components. C. This model works only for Web based systems. Which of the above statements is/are TRUE?",
+          "options": [
+            "A only.",
+            "B only.",
+            "C only.",
+            "A and C only.",
+            "A, B and C."
+          ],
+          "answer": [
+            "B only."
+          ]
+        },
+        {
+          "question": "Which of the following is/are NOT (an) Agile principle(s)?",
+          "options": [
+            "Primary measure of progress is working software.",
+            "Priority is given for the proper documentation.",
+            "Changing requirements during the project is not entertained.",
+            "Deliver working software frequently.",
+            "Highest priority is to maximize the profit."
+          ],
+          "answer": [
+            "Priority is given for the proper documentation.",
+            "Changing requirements during the project is not entertained.",
+            "Highest priority is to maximize the profit."
+          ]
+        },
+        {
+          "question": "Consider the following statements regarding the SCRUM. A. It is an agile framework for completing complex projects. B. It is Lightweight. C. Scrum team owns the vision and goals of the project. Which of the above statements is/are TRUE?",
+          "options": [
+            "A only.",
+            "A and B only.",
+            "B only.",
+            "C only.",
+            "A, B and C."
+          ],
+          "answer": [
+            "A and B only."
+          ]
+        },
+        {
+          "question": "Whom among the following is/are responsible to conduct the sprint meeting?",
+          "options": [
+            "Project manager",
+            "Scrum team",
+            "Product user",
+            "Product owner",
+            "Scrum master"
+          ],
+          "answer": [
+            "Scrum master"
+          ]
+        },
+        {
+          "question": "Consider the following statements regarding the requirements of a software system. A. Designing them using engineering approaches is called requirements engineering. B. They reflect the needs of developers for a system. C. They contain the descriptions of the services that a system should provide and the constraints on its operation. Which of the above statements is/are TRUE?",
+          "options": [
+            "A only.",
+            "A and B only.",
+            "B only.",
+            "C only.",
+            "A, B and C."
+          ],
+          "answer": [
+            "A and C only."
+          ]
+        },
+        {
+          "question": "Which of the following could be the functional requirements of a BIT student management system?",
+          "options": [
+            "Registered students shall be able to login to the system.",
+            "User interfaces of the system should be simple to avoid confusion.",
+            "Authorized staff shall be able to access the students’ information after login.",
+            "System shall be available 24 x 7 for all the students.",
+            "System shall be accurate enough to provide correct details about the students."
+          ],
+          "answer": [
+            "Registered students shall be able to login to the system.",
+            "Authorized staff shall be able to access the students’ information after login."
+          ]
+        },
+        {
+          "question": "Consider the following statements regarding the list of non-functional requirements. A. It describes the system services required. B. It defines how the system performs a certain function. C. It affects the overall architecture of a system rather than the individual components. Which of the above statements is/are TRUE?",
+          "options": [
+            "A only.",
+            "B only.",
+            "C only.",
+            "B and C only.",
+            "A, B and C."
+          ],
+          "answer": [
+            "B and C only."
+          ]
+        },
+        {
+          "question": "Which of the following is/are among key activities of the requirements engineering process?",
+          "options": [
+            "Requirements Design",
+            "Requirements Evolution",
+            "Requirements Specification",
+            "Requirements Modification",
+            "Requirements Validation"
+          ],
+          "answer": [
+            "Requirements Specification",
+            "Requirements Validation"
+          ]
+        },
+        {
+          "question": "Consider the following statements regarding the problems of Requirements Analysis. A. Stakeholders express requirements in their own terms. B. Different stakeholders may have conflicting requirements. C. The requirements may change during the analysis process. Which of the above statements is/are TRUE?",
+          "options": [
+            "A only.",
+            "B only.",
+            "A and C only.",
+            "B and C only.",
+            "A, B and C."
+          ],
+          "answer": [
+            "A, B and C."
+          ]
+        },
+        {
+          "question": "Which of the following is/are requirements elicitation techniques?",
+          "options": [
+            "Ethnography",
+            "Analogy",
+            "Scenario",
+            "Waterfall",
+            "RUP"
+          ],
+          "answer": [
+            "Ethnography",
+            "Scenario"
+          ]
+        },
+        {
+          "question": "Which of the following is/are NOT (a) type(s) of relationships in a use case diagram?",
+          "options": [
+            "Association",
+            "Generalization",
+            "Exclude",
+            "Abstraction",
+            "Extend"
+          ],
+          "answer": [
+            "Exclude",
+            "Abstraction"
+          ]
+        },
+        {
+          "question": "Which of the following is a /are type(s) of UML diagram(s)?",
+          "options": [
+            "Interface diagrams",
+            "State diagrams",
+            "ER diagrams",
+            "Data Flow diagrams",
+            "Sequence diagrams"
+          ],
+          "answer": [
+            "State diagrams",
+            "Sequence diagrams"
+          ]
+        },
+        {
+          "question": "................ model shows how classes that are collections are composed of other classes.",
+          "options": [
+            "Encapsulation",
+            "Repository",
+            "Association",
+            "Aggregation",
+            "Abstraction"
+          ],
+          "answer": [
+            "Aggregation"
+          ]
+        },
+        {
+          "question": "The following diagram shows a part of the class diagram of a school Management System.\nA\nName:\nDOB:\nContact No:\nStudent\nID:\nGrade:\nClass:\nParent\nChild Name:\nProfession:\nValue(s) that A can take is/are:",
+          "options": [
+            "Monitor",
+            "Principal",
+            "Teacher",
+            "User",
+            "Admin"
+          ],
+          "answer": [
+            "Teacher"
+          ]
+        },
+        {
+          "question": "Consider the following statements with respect to Use Case Modeling. A. It shows the design aspects of the software. B. It represents a discrete task that involves external interaction with a system. C. Another system can be an actor of a use case diagram. Which of the above statements is/are TRUE?",
+          "options": [
+            "A and B only.",
+            "B only.",
+            "A and C only.",
+            "B and C only.",
+            "A, B and C."
+          ],
+          "answer": [
+            "B and C only."
+          ]
+        },
+        {
+          "question": "According to the UML notation used in the following diagram, what can the value(s) of X and Y be?\nX\nWheel\nY",
+          "options": [
+            "Vehicle, Car",
+            "Car, Engine",
+            "Bus, Passenger",
+            "Vehicle, Seat",
+            "Circle, Ring"
+          ],
+          "answer": [
+            "Vehicle, Seat"
+          ]
+        },
+        {
+          "question": "Consider the following statements regarding Architectural Patterns. A. Patterns are a means of representing, sharing and reusing knowledge. B. They are software libraries which can be reused when coding. C. They should include information about when they are useful and when they are not useful. Which of the above statements is/are TRUE?",
+          "options": [
+            "A only.",
+            "B only.",
+            "A and B only.",
+            "A and C only.",
+            "A, B and C."
+          ],
+          "answer": [
+            "A and C only."
+          ]
+        },
+        {
+          "question": "Which of the following is a/are part of a 4+1 View Model of Software Architecture?",
+          "options": [
+            "Process view",
+            "Customer view",
+            "Business view",
+            "Logical view",
+            "Physical view"
+          ],
+          "answer": [
+            "Process view",
+            "Logical view",
+            "Physical view"
+          ]
+        },
+        {
+          "question": "Which of the following is/are TRUE regarding the repository architecture?",
+          "options": [
+            "It is an efficient way to share large amounts of data.",
+            "It is a system architecture based on the concept of a shared database.",
+            "It does not allow sub-systems to exchange data.",
+            "It allows different policies on its sub-systems.",
+            "A single point of failure is one of the drawbacks of this architecture."
+          ],
+          "answer": [
+            "It is an efficient way to share large amounts of data.",
+            "It is a system architecture based on the concept of a shared database.",
+            "It allows different policies on its sub-systems.",
+            "A single point of failure is one of the drawbacks of this architecture."
+          ]
+        },
+        {
+          "question": "Consider the following statements regarding the Client–Server architecture. A. General functionalities need not to be implemented by all services. B. It can be used when the load on a system is variable. C. Performance of the model may be unpredictable. Which of the above statements is/are TRUE?",
+          "options": [
+            "A only.",
+            "B only.",
+            "A and B only.",
+            "A and C only.",
+            "A, B and C."
+          ],
+          "answer": [
+            "A, B and C."
+          ]
+        },
+        {
+          "question": "Which of the following can NOT be the layers of an Information Systems Architecture?",
+          "options": [
+            "User interface",
+            "Requirements",
+            "System database",
+            "Architecture Design",
+            "User communications"
+          ],
+          "answer": [
+            "Requirements"
+          ]
+        },
+        {
+          "question": "Which of the following may NOT be the elements of a pattern?",
+          "options": [
+            "Name",
+            "Solution description",
+            "System Specification",
+            "Consequences",
+            "Expiry Date"
+          ],
+          "answer": [
+            "System Specification",
+            "Expiry Date"
+          ]
+        },
+        {
+          "question": "Which of the following is/are reuse levels of a software?",
+          "options": [
+            "Abstraction level",
+            "Object level",
+            "User level",
+            "Requirement level",
+            "System level"
+          ],
+          "answer": [
+            "Abstraction level",
+            "Object level",
+            "System level"
+          ]
+        },
+        {
+          "question": "Which of the following is/are TRUE with respect to free and open source software (FOSS)?",
+          "options": [
+            "”Free” means, you do not need to pay for the software.",
+            "You cannot earn money from FOSS.",
+            "It encourages volunteers to participate in the development process.",
+            "You can modify an open source software as you wish.",
+            "If you modify an open source software, you should always make it open source."
+          ],
+          "answer": [
+            "It encourages volunteers to participate in the development process.",
+            "You can modify an open source software as you wish."
+          ]
+        },
+        {
+          "question": "Consider the following statements regarding software testing. A. Software testing reveals the absence of errors. B. It helps us to deliver 100% error free software to the customer. C. It helps to reduce the maintenance cost. Which of the above statements is/are TRUE?",
+          "options": [
+            "A only.",
+            "B only.",
+            "C only.",
+            "A and C only.",
+            "A, B and C."
+          ],
+          "answer": [
+            "C only."
+          ]
+        },
+        {
+          "question": "Which of the following is/are TRUE with respect to Software inspection?",
+          "options": [
+            "It is applicable to any representation of the system.",
+            "You cannot test whether you have adopted the standards by inspection.",
+            "You do not require execution of a system for inspection.",
+            "You can do it even before software implementation.",
+            "You can validate the usability of the system by inspection."
+          ],
+          "answer": [
+            "It is applicable to any representation of the system.",
+            "You do not require execution of a system for inspection.",
+            "You can do it even before software implementation."
+          ]
+        },
+        {
+          "question": "Which of the following is/are in a software test case?",
+          "options": [
+            "Developer ID",
+            "Test case ID",
+            "Description",
+            "Expected output",
+            "Expiry Date"
+          ],
+          "answer": [
+            "Test case ID",
+            "Description",
+            "Expected output"
+          ]
+        },
+        {
+          "question": "The testing done by isolating each part of the system and showing that the individual parts are correct is called,",
+          "options": [
+            "White-box testing",
+            "Black-box testing",
+            "Unit testing",
+            "Regression testing",
+            "Interface Testing"
+          ],
+          "answer": [
+            "Unit testing"
+          ]
+        },
+        {
+          "question": "What is the correct execution order of the following test types?",
+          "options": [
+            "Unit Testing, Integration Testing, Acceptance Testing, System Testing",
+            "Unit Testing, Integration Testing, System Testing, Acceptance Testing",
+            "Integration Testing, Unit Testing, Acceptance Testing, System Testing",
+            "Integration Testing, Unit Testing, System Testing, Acceptance Testing",
+            "System Testing, Unit Testing, Integration Testing, Acceptance Testing"
+          ],
+          "answer": [
+            "Unit Testing, Integration Testing, System Testing, Acceptance Testing"
+          ]
+        },
+        {
+          "question": "The following are the stages of the software evolution process. Software Development → X → Software Servicing→ Software Retirement What can X be?",
+          "options": [
+            "Software Evaluation",
+            "Software Validation",
+            "Software Evolution",
+            "Software Maintenance",
+            "Software Testing"
+          ],
+          "answer": [
+            "Software Maintenance"
+          ]
+        },
+        {
+          "question": "Consider the following statements regarding software maintenance. A. The term ”Software maintenance” is mostly used for changing custom software. B. Maintenance does NOT normally involve major changes to the system’s architecture. C. Software maintenance cost is usually less than the development cost. Which of the above statements is/are TRUE?",
+          "options": [
+            "A only.",
+            "B only.",
+            "A and B only.",
+            "A and C only.",
+            "A, B and C."
+          ],
+          "answer": [
+            "A and B only."
+          ]
+        },
+        {
+          "question": "Each time a new feature is added to the system, the maintainability of the software product",
+          "options": [
+            "Increases.",
+            "Decreases.",
+            "Needs to be planned.",
+            "Remains without affecting.",
+            "Cannot be measured."
+          ],
+          "answer": [
+            "Decreases."
+          ]
+        }
+      ]
     }
+    
+    
   ]
 }

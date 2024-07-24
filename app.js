@@ -17,10 +17,8 @@ toggleSwitch.addEventListener('change', switchMode, false);
 
 const yearOptions = {
     "CommunicationSkillsI": ["EN2106_2020", "EN2106_2021", "EN2106_2022"],
-    "DatabaseSystems": ["2020", "2021", "2022"],
-    "FundamentalsofSoftwareEngineering": ["2019", "2020", "2021", "2022"],
-    "MathematicsforComputingI": ["2018", "2019", "2020"],
-    "WebApplicationDevelopmentI": ["2017", "2018", "2019", "2020", "2021"]
+    "DatabaseSystems": ["IT2306_2020", "IT2306_2021"],
+    "FundamentalsofSoftwareEngineering": ["EN2106_2020", "EN2106_2021"],
 };
 
 function populateYearButtons(years, prefix) {

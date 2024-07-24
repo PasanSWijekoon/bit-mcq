@@ -1,25 +1,25 @@
 {
-    "quizzes": [
+  "quizzes": [
+    {
+      "title": "EN2106_2020",
+      "questions": [
         {
-            "title": "EN2106_2020",
-            "questions": [
-                {
-                    "question": "Which of the following are JavaScript frameworks?",
-                    "options": ["React", "Django", "Angular", "Laravel", "kimchi"],
-                    "answer": ["React", "Angular"]
-                },
-                {
-                  "question": "Which of the following are JavaScript frameworks?",
-                  "options": ["React", "Django", "Angular", "Laravel", "kimchi"],
-                  "answer": ["React"]
-              },
-                {
-                  "question": "Which of the following are JavaScript frameworks?",
-                  "options": ["React", "Django", "Angular", "Laravel", "kimchi"],
-                  "answer": ["React", "Angular","Django"]
-              }
-            ]
+          "question": "Which of the following statement/s is/are correct regarding typing?",
+          "options": [
+            "30-35 words per minute is a good typing speed.",
+            "You may use the thumb of your left hand to type spaces.",
+            "Typed letters are unique and they provide an indication regarding your personality.",
+            "Typing has cognitive benefits over handwriting.",
+            "We are more likely to remember what we type than what we write."
+          ],
+          "answer": [
+            "30-35 words per minute is a good typing speed.",
+            "You may use the thumb of your left hand to type spaces."
+          ]
         }
-    ]
-  }
-  
+     
+      ]
+    }
+
+  ]
+}
